@@ -9,13 +9,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("List 4!");
 
+        //Unit tests included
+
         Task1ExampleClass stack1= new Task1ExampleClass(5);
         Task2ExampleClass stack2= new Task2ExampleClass();
         Task3ExampleClass stack3= new Task3ExampleClass(3);
         Task4ExampleClass stack4= new Task4ExampleClass(4);
         Task5ExampleClass stack5= new Task5ExampleClass();
 
-//        stack1.showTask(); // rzuci wyjątkiem na końcu bo za dużo dodoane
+//        stack1.showTask();
 //        stack2.showTask();
 //        stack3.showTask();
 //        stack4.showTask();

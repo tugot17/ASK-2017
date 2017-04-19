@@ -7,7 +7,7 @@ import Sorts.ISort;
  */
 public class InsertSort implements ISort {
     @Override
-    public Object sort(Object[] array) {
-        return null;
+    public int [] sort(int [] array) {
+        return array;
     }
 }

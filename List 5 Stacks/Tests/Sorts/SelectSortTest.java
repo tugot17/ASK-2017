@@ -15,7 +15,7 @@ public class SelectSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new SelectSort();
+        sort = new SelectSort(1);
     }
 
     @Test

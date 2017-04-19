@@ -4,37 +4,32 @@ import Helpers.Stoper;
 import Messages.SortMessage;
 import Sorts.ISort;
 import Helpers.RandomGenerator;
+import Helpers.Sort;
+
 
 /**
  * Created by pmazurek on 19.04.2017.
  */
-public class BubbleSort implements ISort {
-
-    //<editor-fold desc="Elements">
-    private int amountOfSortedElements;
-    private int [] array;
-    Stoper stoper;
-
-    //</editor-fold>
+public class BubbleSort extends Sort implements ISort {
 
     //<editor-fold desc="Constructors">
+
     public BubbleSort(int amountOfSortedElements) {
-        this.amountOfSortedElements = amountOfSortedElements;
-        this.array= new int[amountOfSortedElements];
-        stoper = new Stoper("sort stoper");
+        super(amountOfSortedElements);
     }
+
     //</editor-fold>
 
-    // don't sort array sort its copy
+    //<editor-fold desc="Public Methods">
+
+    // don't sort array, sort its copy
     @Override
     public void sortLocally() {
 
-        int [] helperArray = array;
+        int[] helperArray = getArray();
         sort(helperArray);
 
     }
-
-
 
     @Override
     public int [] sort() {
@@ -53,9 +48,9 @@ public class BubbleSort implements ISort {
         double amountOfComparasion=0;
 
         stoper.start();
-        for (int i=0; i<array.length-1; i++)
+        for (int i = array.length - 1; i >= 0; i--)
         {
-            for (int j=0; j<array.length-1; j++)
+            for (int j = 0; j < i; j++)
             {
                 if (array[j]>array[j+1])
                 {
@@ -64,6 +59,7 @@ public class BubbleSort implements ISort {
                     array[j+1]=helper;
                 }
                 amountOfComparasion++;
+
             }
         }
         stoper.stop();
@@ -72,4 +68,6 @@ public class BubbleSort implements ISort {
 
         return array;
     }
+
+    //</editor-fold>
 }

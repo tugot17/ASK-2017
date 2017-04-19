@@ -17,7 +17,7 @@ public class InsertSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort =  new InsertSort();
+        sort = new InsertSort(0);
 
     }
 

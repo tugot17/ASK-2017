@@ -12,11 +12,11 @@ import static org.junit.Assert.*;
  */
 public class QuickSortTest {
 
-    ISort sort;
+    private ISort sort;
     @Before
     public void setUp() throws Exception {
 
-        sort = new QuickSort();
+        sort = new QuickSort(0);
     }
 
 

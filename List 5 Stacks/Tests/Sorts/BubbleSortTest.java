@@ -20,12 +20,15 @@ public class BubbleSortTest {
     @Test
     public void sort() throws Exception {
 
-        int arrray []= {12, 13, 1, 5, 69};
+        int arrray[] = {12, 13, 1, 69, 5,};
 
         int resultArray[] = sort.sort(arrray);
 
         assertEquals(1, arrray[0]);
         assertEquals(5, arrray[1]);
+        assertEquals(12, arrray[2]);
+        assertEquals(13, arrray[3]);
+        assertEquals(69, arrray[4]);
     }
 
 

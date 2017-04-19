@@ -14,7 +14,7 @@ public class BubbleSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new BubbleSort();
+        sort = new BubbleSort(0);
     }
 
     @Test

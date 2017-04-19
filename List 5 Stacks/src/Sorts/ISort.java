@@ -5,4 +5,7 @@ package Sorts;
  */
 public interface ISort {
     public int [] sort(int [] array);
+    public int [] sort();
+    public void sortLocally();
+
 }

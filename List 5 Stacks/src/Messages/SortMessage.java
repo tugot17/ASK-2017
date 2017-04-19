@@ -7,10 +7,10 @@ import java.text.MessageFormat;
  */
 public class SortMessage {
 
-    static public String showSortInformations(String sortName, int amountOfSortedElements, int amountOfComparasions, double totalSortingTime){
+    static public String showSortInformations(String sortName, int amountOfSortedElements, double amountOfComparasions, double totalSortingTime){
 
             String message= MessageFormat.format("{0} Sort in which {1} were used has taken {3} s. and {2} comparasions has been done\n",
-                    sortName, amountOfSortedElements, totalSortingTime, totalSortingTime);
+                    sortName, amountOfSortedElements, amountOfComparasions, totalSortingTime);
             System.out.print(message);
             return message;
     }

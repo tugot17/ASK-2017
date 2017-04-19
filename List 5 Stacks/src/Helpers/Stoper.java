@@ -1,3 +1,5 @@
+package Helpers;
+
 /**
  * Created by pmazurek on 19.04.2017.
  */

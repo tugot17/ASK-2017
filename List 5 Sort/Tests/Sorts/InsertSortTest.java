@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.InsertSort.InsertSort;
+import Sorts.SelectSort.SelectSort;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ public class InsertSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new InsertSort(0);
+        sort = new SelectSort(0);
 
     }
 

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f06ccdb-7459-4e5b-a1cf-ff00361af3a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/InsertSort/InsertSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/InsertSort/InsertSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SelectSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SelectSortTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/InsertSort/InsertSort.java" afterPath="$PROJECT_DIR$/src/Sorts/InsertSort/InsertSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SelectSort/SelectSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SelectSort/SelectSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +116,8 @@
       <file leaf-file-name="CompereSortTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="145">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -878,7 +872,7 @@
       <workItem from="1492613627785" duration="2596000" />
       <workItem from="1492624439130" duration="578000" />
       <workItem from="1492625105028" duration="2844000" />
-      <workItem from="1492772726492" duration="15008000" />
+      <workItem from="1492772726492" duration="15592000" />
     </task>
     <task id="LOCAL-00001" summary="Bubble sort improved, added class Sort (individual Sorts extends from it)">
       <created>1492627127168</created>
@@ -905,8 +899,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sorts_in_List_5_Stacks - 2017.04.21 at 18h 23m 29s.xml">
-      <configuration name="Sorts in List 5 Stacks" configurationId="JUnit" />
+    <history-entry file="CompereSortTest_testAllSorts - 2017.04.21 at 20h 29m 28s.xml">
+      <configuration name="CompereSortTest.testAllSorts" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sorts_in_List_5_Stacks - 2017.04.21 at 18h 23m 31s.xml">
       <configuration name="Sorts in List 5 Stacks" configurationId="JUnit" />
@@ -937,10 +931,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30565000" />
+    <option name="totallyTimeSpent" value="31149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1592" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,7 +946,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26849896" sideWeight="0.54010415" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26849896" sideWeight="0.45989582" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26849896" sideWeight="0.45989582" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20190275" sideWeight="0.7338542" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1529,8 +1523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="145">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

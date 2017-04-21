@@ -28,14 +28,14 @@ public class CompereSortTest {
 
     @Test
     public void testAllSorts() throws Exception {
-        testSingleSort(bubbleSort);
-        testSingleSort(insertSort);
-        testSingleSort(selectSort);
+        testSingleSort1(bubbleSort);
+        testSingleSort1(insertSort);
+        testSingleSort1(selectSort);
 
 
     }
 
-    private void testSingleSort(ISort sort) {
+    private void testSingleSort1(ISort sort) {
         int arrray[] = {12, 13, 1, 69, 5,};
 
         int resultArray[] = sort.sort(arrray);

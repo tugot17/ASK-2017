@@ -35,8 +35,25 @@ public class InsertSort extends Sort implements ISort {
     public int[] sort(int[] array) {
 
 
+        int key;
+        int i;
+
+        stoper.start();
+        for (int j = 1; j < array.length; j++)
+        {
+            key = array[ j ];
+            for(i = j - 1; (i >= 0 && (array[ i ] >key)) ; i--)   // Bigger values are moving up
+            {
+                array[ i+1 ] = array[ i ];
+                amountOfComparasions++;
+            }
+            array[ i+1 ] = key;
+        }
+        stoper.stop();
+
 
         SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stoper.getResult());
+
         return array;
     }
 

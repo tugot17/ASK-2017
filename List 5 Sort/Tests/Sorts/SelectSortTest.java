@@ -19,7 +19,6 @@ public class SelectSortTest {
         sort = new InsertSort(1);
     }
 
-    @Ignore
     @Test
     public void sort() throws Exception {
         int arrray[] = {12, 13, 1, 69, 5};

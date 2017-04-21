@@ -22,16 +22,23 @@ public class QuickSortTest {
 
     @Ignore
     @Test
-    public void sort() throws Exception {
-        int arrray[] = {12, 13, 1, 69, 5,};
+    public void sort1() throws Exception {
+        CompereSortTest.testSingleSort1(sort);
 
-        int resultArray[] = sort.sort(arrray);
+    }
 
-        assertEquals(1, arrray[0]);
-        assertEquals(5, arrray[1]);
-        assertEquals(12, arrray[2]);
-        assertEquals(13, arrray[3]);
-        assertEquals(69, arrray[4]);
+    @Ignore
+    @Test
+    public void sort2() throws Exception {
+        CompereSortTest.testSingleSort2(sort);
+
+    }
+
+    @Ignore
+    @Test
+    public void sort3() throws Exception {
+        CompereSortTest.testSingleSort3(sort);
+
     }
 
 }

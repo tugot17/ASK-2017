@@ -14,29 +14,9 @@ import static org.junit.Assert.*;
  */
 public class CompereSortTest {
 
-    ISort bubbleSort;
-    ISort insertSort;
-    ISort selectSort;
 
-    @Before
-    public void setUp() throws Exception {
-        bubbleSort = new BubbleSort(1);
-        insertSort = new InsertSort(1);
-        selectSort = new SelectSort(1);
-
-    }
-
-    @Test
-    public void testAllSorts() throws Exception {
-        testSingleSort1(bubbleSort);
-        testSingleSort1(insertSort);
-        testSingleSort1(selectSort);
-
-
-    }
-
-    private void testSingleSort1(ISort sort) {
-        int arrray[] = {12, 13, 1, 69, 5,};
+    public static void testSingleSort1(ISort sort) {
+        int arrray[] = {12, 13, 1, 69, 5};
 
         int resultArray[] = sort.sort(arrray);
 
@@ -46,5 +26,33 @@ public class CompereSortTest {
         assertEquals(13, arrray[3]);
         assertEquals(69, arrray[4]);
     }
+
+    public static void testSingleSort2(ISort sort) {
+        int arrray[] = {5, 4, 3, 2, 1};
+
+        int resultArray[] = sort.sort(arrray);
+
+        assertEquals(1, arrray[0]);
+        assertEquals(2, arrray[1]);
+        assertEquals(3, arrray[2]);
+        assertEquals(4, arrray[3]);
+        assertEquals(5, arrray[4]);
+    }
+
+    public static void testSingleSort3(ISort sort) {
+        int arrray[] = {5, 4, 4, 4, 1};
+
+        int resultArray[] = sort.sort(arrray);
+
+        assertEquals(1, arrray[0]);
+        assertEquals(4, arrray[1]);
+        assertEquals(4, arrray[2]);
+        assertEquals(4, arrray[3]);
+        assertEquals(5, arrray[4]);
+    }
+
+
+
+
 
 }

@@ -25,26 +25,23 @@ public class BubbleSort extends Sort implements ISort {
     // don't sort array, sort its copy
     @Override
     public void sortLocally() {
+        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
-        int[] helperArray = getArray();
+        int[] helperArray = array;
         sort(helperArray);
 
     }
 
     @Override
     public int [] sort() {
+        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
-        array= RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
-
-        sort(array);
-
-        return array;
+        return sort(array);
     }
 
     @Override
     public int [] sort(int [] array) {
-
-        int helper=0;
+        int helper;
         double amountOfComparasion=0;
 
         stoper.start();
@@ -68,6 +65,7 @@ public class BubbleSort extends Sort implements ISort {
 
         return array;
     }
+
 
     //</editor-fold>
 }

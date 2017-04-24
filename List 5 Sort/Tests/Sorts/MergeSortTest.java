@@ -1,40 +1,41 @@
 package Sorts;
 
-import Sorts.BubbleSort.BubbleSort;
+import Sorts.MergeSort.MergeSort;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 /**
- * Created by pmazurek on 19.04.2017.
+ * Created by pmazurek on 21.04.2017.
  */
-public class BubbleSortTest {
+public class MergeSortTest {
     ISort sort;
 
     @Before
     public void setUp() throws Exception {
-        sort = new BubbleSort(0);
+        sort = new MergeSort(1);
     }
 
+    @Ignore
     @Test
     public void sort1() throws Exception {
-        CompereSortTest.testSingleSort1(sort);
+        SortTestingHelper.testSingleSort1(sort);
 
     }
 
+    @Ignore
     @Test
     public void sort2() throws Exception {
-        CompereSortTest.testSingleSort2(sort);
+        SortTestingHelper.testSingleSort2(sort);
 
     }
-
+    @Ignore
     @Test
     public void sort3() throws Exception {
-        CompereSortTest.testSingleSort3(sort);
+        SortTestingHelper.testSingleSort3(sort);
 
     }
-
-
 
 }

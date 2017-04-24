@@ -16,18 +16,15 @@ public class QuickSort extends Sort implements ISort {
 
     //<editor-fold desc="Public Methods">
     @Override
-    public int[] sort() {
-        return new int[0];
-    }
-
-    @Override
-    public void sortLocally() {
+    public void sort() {
 
     }
 
+
+
     @Override
-    public int [] sort(int [] array) {
-        return array;
+    public void sort(int [] array) {
+
     }
     //</editor-fold>
 

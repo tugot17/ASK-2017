@@ -1,19 +1,22 @@
 package Sorts;
 
-import Sorts.InsertSort.InsertSort;
+import Sorts.BubbleSort.ShakerSort;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Created by pmazurek on 19.04.2017.
- */
-public class SelectSortTest {
+import static org.junit.Assert.*;
 
-    private ISort sort;
+/**
+ * Created by pmazurek on 23.04.2017.
+ */
+public class ShakerSortTest {
+    ISort sort;
+
 
     @Before
     public void setUp() throws Exception {
-        sort = new InsertSort(1);
+        sort = new ShakerSort(0);
+
     }
 
     @Test
@@ -33,5 +36,4 @@ public class SelectSortTest {
         SortTestingHelper.testSingleSort3(sort);
 
     }
-
 }

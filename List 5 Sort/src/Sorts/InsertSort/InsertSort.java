@@ -1,5 +1,6 @@
 package Sorts.InsertSort;
 
+import Helpers.RandomGenerator;
 import Helpers.Sort;
 import Helpers.Stoper;
 import Messages.SortMessage;
@@ -21,19 +22,19 @@ public class InsertSort extends Sort implements ISort {
 
     //</editor-fold>
 
+    //<editor-fold desc="Public Methods">
     @Override
-    public int[] sort() {
-        return new int[0];
+    public void sort() {
+        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+
+         sort(array);
     }
 
-    @Override
-    public void sortLocally() {
-
-    }
 
     @Override
-    public int[] sort(int[] array) {
+    public void sort(int[] array) {
 
+        this.array = array;
 
         int key;
         int i;
@@ -54,7 +55,7 @@ public class InsertSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stoper.getResult());
 
-        return array;
     }
+    //</editor-fold>
 
 }

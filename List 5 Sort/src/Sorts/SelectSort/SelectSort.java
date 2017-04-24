@@ -18,25 +18,15 @@ public class SelectSort extends Sort implements ISort {
 
     //<editor-fold desc="Public Methods">
     @Override
-    public int[] sort() {
+    public void sort() {
         array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
-        return sort(array);
+        sort(array);
     }
 
-    @Override
-    public void sortLocally() {
-
-        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
-
-        int[] helperArray = array;
-
-        sort(helperArray);
-
-    }
 
     @Override
-    public int[] sort(int[] array) {
+    public void sort(int[] array) {
 
         int theBiggest;
         int helper;
@@ -64,7 +54,7 @@ public class SelectSort extends Sort implements ISort {
         SortMessage.showSortInformations("Select", array.length, amountOfComparasions, stoper.getResult());
 
 
-        return array;
+
     }
     //</editor-fold>
 

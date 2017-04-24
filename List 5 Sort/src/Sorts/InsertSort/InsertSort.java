@@ -25,7 +25,7 @@ public class InsertSort extends Sort implements ISort {
     //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
-        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        this.array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
          sort(array);
     }
@@ -43,7 +43,7 @@ public class InsertSort extends Sort implements ISort {
         for (int j = 1; j < array.length; j++)
         {
             key = array[ j ];
-            for(i = j - 1; (i >= 0 && (array[ i ] >key)) ; i--)   // Bigger values are moving up
+            for (i = j - 1; (i >= 0 && (array[i] > key)); i--)
             {
                 array[ i+1 ] = array[ i ];
                 amountOfComparasions++;

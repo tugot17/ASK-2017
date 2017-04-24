@@ -1,10 +1,8 @@
 package Sorts;
 
-import Sorts.BubbleSort.ShakerSort;
+import Sorts.ShakerSort.ShakerSort;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by pmazurek on 23.04.2017.

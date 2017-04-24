@@ -13,10 +13,11 @@ public class RandomGenerator {
     {
         int [] array = new int[amountOfElements];
 
-        for (int a: array)
+        for (int i = 0; i < amountOfElements; i++)
         {
-            a=randomInteger();
+            array[i] = randomInteger();
         }
+
         return array;
     }
     //</editor-fold>

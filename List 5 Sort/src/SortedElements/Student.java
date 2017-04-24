@@ -14,19 +14,26 @@ public class Student implements Comparable<Student> {
         this.surname = surname;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
     @Override
     public int compareTo(Student other) {
 
         return this.id-other.id;
     }
 
-    public int compareToSurname(Student other) {
-
-        int result =  this.surname.compareTo(other.surname);
-
-        if (result==0)
-            return this.name.compareTo(other.name);
-
-        return result;
+    @Override
+    public String toString() {
+        return id + " " + " " + name + " " + surname;
     }
 }

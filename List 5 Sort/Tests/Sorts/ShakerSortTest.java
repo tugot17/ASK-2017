@@ -32,6 +32,16 @@ public class ShakerSortTest {
     @Test
     public void sort3() throws Exception {
         SortTestingHelper.testSingleSort3(sort);
-
     }
+
+    @Test
+    public void sort4() throws Exception {
+        SortTestingHelper.testDescendingSort(sort);
+    }
+
+    @Test
+    public void sort5() throws Exception {
+        SortTestingHelper.testAscendingSort(sort);
+    }
+
 }

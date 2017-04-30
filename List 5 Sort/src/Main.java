@@ -7,6 +7,7 @@ import Sorts.ISort;
 import Sorts.InsertSort.InsertSort;
 import Sorts.MergeSort.MergeSort;
 import Sorts.SelectSort.SelectSort;
+import Sorts.ShakerSort.ShakerSort;
 
 import java.util.Comparator;
 
@@ -17,10 +18,12 @@ public class Main {
         ISort bubbleSort = new BubbleSort(5000);
         ISort selectSort = new SelectSort(5000);
         ISort insertSort = new InsertSort(5000);
+        ISort shakerSort = new ShakerSort(5000);
 
         bubbleSort.sort();
         selectSort.sort();
         insertSort.sort();
+        shakerSort.sort();
 
 
 //        Comparator <Student> idComparator = new StudentComparatorSurname();

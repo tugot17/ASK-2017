@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.MergeSort.MergeSort;
+import Sorts.CountingSort.CountingSort;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -8,14 +8,15 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by pmazurek on 21.04.2017.
+ * Created by pmazurek on 24.04.2017.
  */
-public class MergeSortTest {
+public class CountingSortTest {
+
     private ISort sort;
 
     @Before
     public void setUp() throws Exception {
-        sort = new MergeSort(1);
+        sort = new CountingSort(1);
     }
 
     @Ignore
@@ -47,5 +48,4 @@ public class MergeSortTest {
     public void sort5() throws Exception {
         SortTestingHelper.testAscendingSort(sort);
     }
-
 }

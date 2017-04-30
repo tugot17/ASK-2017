@@ -1,5 +1,6 @@
 package Sorts;
 
+import Helpers.RandomGenerator;
 import org.junit.Before;
 
 import static org.junit.Assert.*;
@@ -43,6 +44,44 @@ public class SortTestingHelper {
         assertEquals(4, array[2]);
         assertEquals(4, array[3]);
         assertEquals(5, array[4]);
+    }
+
+    public static void testDescendingSort(ISort sort) {
+        int array[] = RandomGenerator.createRandomArrayGenerator(5000);
+
+        sort.sort(array);
+
+        assertTrue(isSortedAscending(array));
+
+    }
+
+    public static void testAscendingSort(ISort sort) {
+        int array[] = RandomGenerator.createRandomArrayGenerator(5000);
+
+        sort.sort(array);
+
+        assertFalse(isSortedDescending(array));
+
+    }
+
+    private static boolean isSortedAscending(int[] array) {
+
+        for (int i = 0; i < array.length - 2; i++) {
+            if (array[i] > array[i + 1])
+                return false;
+        }
+
+        return true;
+    }
+
+    private static boolean isSortedDescending(int[] array) {
+
+        for (int i = 0; i < array.length - 2; i++) {
+            if (array[i] < array[i + 1])
+                return false;
+        }
+
+        return true;
     }
 
 

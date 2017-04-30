@@ -17,16 +17,14 @@ public class MergeSort extends Sort implements ISort {
     }
     //</editor-fold>
 
+    // at this moment it doesn't work I'm not sure why
 
+    //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
 
     }
 
-
-    // at this moment it doesn't work I'm not sure why
-
-    //<editor-fold desc="Public Methods">
     @Override
     public void sort(int[] array) {
 

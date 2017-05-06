@@ -1,4 +1,4 @@
-package Sorts.ShakerSort;
+package Sorts.SimpleSorts.ShakerSort;
 
 import Helpers.RandomGenerator;
 import Helpers.Sort;

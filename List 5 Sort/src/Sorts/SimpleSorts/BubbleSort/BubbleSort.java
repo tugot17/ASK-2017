@@ -1,6 +1,5 @@
-package Sorts.BubbleSort;
+package Sorts.SimpleSorts.BubbleSort;
 
-import Helpers.Stoper;
 import Messages.SortMessage;
 import Sorts.ISort;
 import Helpers.RandomGenerator;

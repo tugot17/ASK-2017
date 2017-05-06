@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.SelectSort.SelectSort;
+import Sorts.SimpleSorts.SelectSort.SelectSort;
 import org.junit.Before;
 import org.junit.Test;
 

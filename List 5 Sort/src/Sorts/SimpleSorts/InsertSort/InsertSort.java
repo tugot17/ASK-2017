@@ -1,12 +1,9 @@
-package Sorts.InsertSort;
+package Sorts.SimpleSorts.InsertSort;
 
 import Helpers.RandomGenerator;
 import Helpers.Sort;
-import Helpers.Stoper;
 import Messages.SortMessage;
 import Sorts.ISort;
-
-import java.lang.reflect.Array;
 
 /**
  * Created by pmazurek on 19.04.2017.

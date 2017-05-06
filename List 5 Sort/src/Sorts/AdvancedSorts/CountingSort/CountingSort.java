@@ -1,4 +1,4 @@
-package Sorts.CountingSort;
+package Sorts.AdvancedSorts.CountingSort;
 
 import Helpers.Sort;
 import Sorts.ISort;

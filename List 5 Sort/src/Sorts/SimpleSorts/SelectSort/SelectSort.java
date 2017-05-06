@@ -1,4 +1,4 @@
-package Sorts.SelectSort;
+package Sorts.SimpleSorts.SelectSort;
 
 import Helpers.RandomGenerator;
 import Helpers.Sort;

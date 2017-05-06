@@ -1,4 +1,4 @@
-package Sorts.QuickSort;
+package Sorts.AdvancedSorts.QuickSort;
 
 import Helpers.Sort;
 import Sorts.ISort;

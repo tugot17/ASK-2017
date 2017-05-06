@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.QuickSort.QuickSort;
+import Sorts.AdvancedSorts.QuickSort.QuickSort;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;

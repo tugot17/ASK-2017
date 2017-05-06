@@ -1,4 +1,4 @@
-package SortedElements;
+package Sorts.ComparatorSort;
 
 import java.util.Comparator;
 

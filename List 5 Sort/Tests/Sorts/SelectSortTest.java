@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.InsertSort.InsertSort;
+import Sorts.SimpleSorts.InsertSort.InsertSort;
 import org.junit.Before;
 import org.junit.Test;
 

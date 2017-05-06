@@ -1,6 +1,6 @@
 package Sorts;
 
-import Sorts.ShakerSort.ShakerSort;
+import Sorts.SimpleSorts.ShakerSort.ShakerSort;
 import org.junit.Before;
 import org.junit.Test;
 

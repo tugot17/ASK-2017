@@ -1,4 +1,4 @@
-package Sorts.BubbleSort;
+package Sorts.ComparatorSort;
 
 import Helpers.RandomGenerator;
 import Helpers.Sort;

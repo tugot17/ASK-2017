@@ -1,29 +1,19 @@
-import SortedElements.Student;
-import SortedElements.StudentComparatorId;
-import SortedElements.StudentComparatorSurname;
-import Sorts.BubbleSort.BubbleSort;
-import Sorts.BubbleSort.BubbleSortUsingComparator;
-import Sorts.ISort;
-import Sorts.InsertSort.InsertSort;
-import Sorts.MergeSort.MergeSort;
-import Sorts.SelectSort.SelectSort;
-import Sorts.ShakerSort.ShakerSort;
 
-import java.util.Comparator;
+import Recursion.Recursion1;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        ISort bubbleSort = new BubbleSort(5000);
-        ISort selectSort = new SelectSort(5000);
-        ISort insertSort = new InsertSort(5000);
-        ISort shakerSort = new ShakerSort(5000);
-
-        bubbleSort.sort();
-        selectSort.sort();
-        insertSort.sort();
-        shakerSort.sort();
+//        ISort bubbleSort = new BubbleSort(5000);
+//        ISort selectSort = new SelectSort(5000);
+//        ISort insertSort = new InsertSort(5000);
+//        ISort shakerSort = new ShakerSort(5000);
+//
+//        bubbleSort.sort();
+//        selectSort.sort();
+//        insertSort.sort();
+//        shakerSort.sort();
 
 
 //        Comparator <Student> idComparator = new StudentComparatorSurname();
@@ -43,6 +33,13 @@ public class Main {
 //            System.out.println(array[i]);
 //        }
 
+        System.out.println(Recursion1.countHi("xxhixx"));
+
+
+
+//
+//        ISort mergeSort = new MergeSort(3);
+//        mergeSort.sort();
 
     }
 }

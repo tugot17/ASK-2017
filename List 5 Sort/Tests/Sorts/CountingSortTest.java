@@ -1,11 +1,9 @@
 package Sorts;
 
-import Sorts.CountingSort.CountingSort;
+import Sorts.AdvancedSorts.CountingSort.CountingSort;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by pmazurek on 24.04.2017.

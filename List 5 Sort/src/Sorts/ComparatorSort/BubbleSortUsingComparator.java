@@ -13,7 +13,6 @@ import java.util.Comparator;
  */
 public class BubbleSortUsingComparator<T> {
 
-    //<editor-fold desc="Elements">
     Comparator<T> comparator;
 
     T[] array;
@@ -21,17 +20,14 @@ public class BubbleSortUsingComparator<T> {
     Stoper stoper;
 
     int amountOfComparasions;
-    //</editor-fold>
 
-    //<editor-fold desc="Constructors">
     public BubbleSortUsingComparator(int amountOfSortedElements, Comparator<T> comparator) {
         this.comparator = comparator;
-        this.stoper = new Stoper("sortById stopper");
+        this.stoper = new Stoper("sort stopper");
         amountOfComparasions = 0;
     }
-    //</editor-fold>
 
-    //<editor-fold desc="Public Metods">
+
     public void sort(T[] array) {
 
         this.array = array;
@@ -54,6 +50,5 @@ public class BubbleSortUsingComparator<T> {
         SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stoper.getResult());
 
     }
-    //</editor-fold>
 
 }

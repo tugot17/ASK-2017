@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f06ccdb-7459-4e5b-a1cf-ff00361af3a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/ShowSortUsingComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sorts/CompareSorts.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/BubbleSort/BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/CountingSort/CountingSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/InsertSort/InsertSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/MergeSort/MergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/QuickSort/QuickSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/SelectSort/SelectSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/ShakerSort/ShakerSort.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/List 5 Stacks.iml" afterPath="$PROJECT_DIR$/List 5 Sorts.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recursion/Recursion1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/SortedElements/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Sorts/MergeSort/MergeSort.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SortedElements/Student.java" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SortedElements/StudentComparatorId.java" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/StudentComparatorId.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SortedElements/StudentComparatorSurname.java" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/StudentComparatorSurname.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/BubbleSort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/BubbleSort/BubbleSortUsingComparator.java" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/CountingSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/InsertSort/InsertSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/QuickSort/QuickSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/SelectSort/SelectSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sorts/ShakerSort/ShakerSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Main.class" afterPath="$PROJECT_DIR$/out/production/List 5 Stacks/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Recursion/Recursion1.class" afterPath="$PROJECT_DIR$/out/production/List 5 Stacks/Recursion/Recursion1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/ComparatorSort/BubbleSortUsingComparator.class" afterPath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/ComparatorSort/BubbleSortUsingComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/CountingSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/CountingSortTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/MergeSort/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Stacks/Sorts/MergeSort/MergeSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/InsertSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/InsertSortTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/MergeSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/MergeSortTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/QuickSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/QuickSortTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SelectSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SelectSortTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/ShakerSortTest.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/ShakerSortTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SortTestingHelper.class" afterPath="$PROJECT_DIR$/out/test/List 5 Stacks/Sorts/SortTestingHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/MergeSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/MergeSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/QuickSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/QuickSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Sorts/ShakerSortTest.java" afterPath="$PROJECT_DIR$/Tests/Sorts/ShakerSortTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" afterPath="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,28 +47,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSortUsingComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java">
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state relative-caret-position="663">
+              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
-                <element signature="docComment;class#BubbleSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#comparator#0;n#BubbleSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#BubbleSortUsingComparator#0;n#BubbleSortUsingComparator#0" expanded="false" />
-                <element signature="method#BubbleSortUsingComparator#0;class#BubbleSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#sort#0;n#BubbleSortUsingComparator#0" expanded="false" />
-                <element signature="method#sort#0;class#BubbleSortUsingComparator#0" expanded="false" />
+                <element signature="docComment;class#MergeSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BubbleSortUsingComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="595">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +81,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortTestingHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Recursion1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/Recursion1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#Recursion1#0" expanded="false" />
+                <element signature="method#bunnyEars#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#bunnyEars2#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#count7#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#fibbonaciRecursion#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#sumDigits#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#triangle#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#count8#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#powerN#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#countX#0;class#Recursion1#0" expanded="false" />
+                <element signature="method#countHi#0;class#Recursion1#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Messages/SortMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShakerSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortTestingHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Sorts/SortTestingHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="method#testSingleSort1#0;class#SortTestingHelper#0" expanded="false" />
                 <element signature="method#testSingleSort2#0;class#SortTestingHelper#0" expanded="false" />
@@ -82,97 +136,6 @@
                 <element signature="method#testAscendingSort#0;class#SortTestingHelper#0" expanded="false" />
                 <element signature="method#isSortedAscending#0;class#SortTestingHelper#0" expanded="false" />
                 <element signature="method#isSortedDescending#0;class#SortTestingHelper#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#BubbleSort#0" expanded="false" />
-                <element signature="e#250#285#0" expanded="false" />
-                <element signature="e#411#448#0" expanded="false" />
-                <element signature="method#sort#0;class#BubbleSort#0" expanded="false" />
-                <element signature="method#sort#1;class#BubbleSort#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="method#sort1#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#BubbleSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompareSorts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorts/CompareSorts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowSortUsingComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/ShowSortUsingComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#idComparator#0;n#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#showStudentsCompareById#0;n#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="method#showStudentsCompareById#0;class#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="method#showStudentCompareBySurname#0;class#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="n#!!doc;n#showArray#0;n#ShowSortUsingComparator#0" expanded="false" />
-                <element signature="method#showArray#0;class#ShowSortUsingComparator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentComparatorSurname.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/StudentComparatorSurname.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="method#setUp#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#InsertSortTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -201,6 +164,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Sorts/BoubleSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/BoubleSort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/BubbleSort/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/InsertSort/InsertSortTest.java" />
@@ -213,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/Sorts/InsertSort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SelectSort/InsertSort.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/CompereSortTest.java" />
+        <option value="$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/MergeSort/MergeSortTest.java" />
         <option value="$PROJECT_DIR$/src/Sorts/MergeSort/MyClassMergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/MergeSort/MyMergeSort.java" />
@@ -239,19 +204,16 @@
         <option value="$PROJECT_DIR$/Tests/Sorts/SortTestingHelper.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/MergeSortTest.java" />
         <option value="$PROJECT_DIR$/src/Sorts/MergeSort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
         <option value="$PROJECT_DIR$/src/Recursion/Fibbonacii.java" />
         <option value="$PROJECT_DIR$/src/Recursion/BunnyEars.java" />
         <option value="$PROJECT_DIR$/src/Recursion/BunnyEars2.java" />
         <option value="$PROJECT_DIR$/src/Recursion/SumDigits.java" />
         <option value="$PROJECT_DIR$/src/Recursion/Count7.java" />
         <option value="$PROJECT_DIR$/src/Recursion/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Recursion/Recursion1.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
-        <option value="$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/CompareSorts.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/ShowSortUsingComparator.java" />
       </list>
     </option>
   </component>
@@ -395,7 +357,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ComparatorSort" />
+              <option name="myItemId" value="SimpleSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BubbleSort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,6 +488,32 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="InsertSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="List 5 Stacks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Sorts" />
+      <option name="MAIN_CLASS_NAME" value="Sorts.InsertSortTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="ShakerSortTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -514,32 +528,6 @@
       <option name="MAIN_CLASS_NAME" value="Sorts.ShakerSortTest" />
       <option name="METHOD_NAME" value="sort1" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="List 5 Stacks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Sorts" />
-      <option name="MAIN_CLASS_NAME" value="Sorts.BubbleSortTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -940,16 +928,16 @@
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ShakerSortTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShakerSortTest.sort1" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BubbleSortTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InsertSortTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ShakerSortTest.sort1" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BubbleSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShakerSortTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShakerSortTest.sort1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShakerSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShakerSortTest.sort1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InsertSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1036,11 +1024,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BubbleSortTest - 2017.05.06 at 11h 54m 02s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2017.04.30 at 21h 26m 40s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSortTest - 2017.05.06 at 12h 11m 24s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
+    <history-entry file="ShakerSortTest - 2017.04.24 at 12h 14m 49s.xml">
+      <configuration name="ShakerSortTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShakerSortTest - 2017.04.24 at 12h 15m 48s.xml">
       <configuration name="ShakerSortTest" configurationId="JUnit" />
@@ -1068,30 +1056,28 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84745000" />
+    <option name="totallyTimeSpent" value="83067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19450317" sideWeight="0.4578125" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28224102" sideWeight="0.521875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28224102" sideWeight="0.51770836" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28224102" sideWeight="0.478125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28224102" sideWeight="0.48229167" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20190275" sideWeight="0.7338542" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1102,7 +1088,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19450317" sideWeight="0.4578125" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1188,6 +1176,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorts/ISort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1224,6 +1226,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Sorts/MergeSort/MyClassMergeSort.java" />
     <entry file="file://$PROJECT_DIR$/src/Sorts/MergeSort/MyMergeSort.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/ClassLoader.java">
@@ -1297,6 +1300,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/StudentComparatorSurname.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1308,6 +1318,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1329,6 +1346,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1362,6 +1386,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/RandomGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1380,6 +1411,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="56" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,6 +1442,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1444,8 +1493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Sorts/SortTestingHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="method#testSingleSort1#0;class#SortTestingHelper#0" expanded="false" />
             <element signature="method#testSingleSort2#0;class#SortTestingHelper#0" expanded="false" />
@@ -1454,108 +1503,6 @@
             <element signature="method#testAscendingSort#0;class#SortTestingHelper#0" expanded="false" />
             <element signature="method#isSortedAscending#0;class#SortTestingHelper#0" expanded="false" />
             <element signature="method#isSortedDescending#0;class#SortTestingHelper#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#BubbleSort#0" expanded="false" />
-            <element signature="e#250#285#0" expanded="false" />
-            <element signature="e#411#448#0" expanded="false" />
-            <element signature="method#sort#0;class#BubbleSort#0" expanded="false" />
-            <element signature="method#sort#1;class#BubbleSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="method#setUp#0;class#InsertSortTest#0" expanded="false" />
-            <element signature="method#sort1#0;class#InsertSortTest#0" expanded="false" />
-            <element signature="method#sort2#0;class#InsertSortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="method#sort1#0;class#BubbleSortTest#0" expanded="false" />
-            <element signature="method#sort2#0;class#BubbleSortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/CompareSorts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#BubbleSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#comparator#0;n#BubbleSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#BubbleSortUsingComparator#0;n#BubbleSortUsingComparator#0" expanded="false" />
-            <element signature="method#BubbleSortUsingComparator#0;class#BubbleSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#BubbleSortUsingComparator#0" expanded="false" />
-            <element signature="method#sort#0;class#BubbleSortUsingComparator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/StudentComparatorSurname.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/ShowSortUsingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#idComparator#0;n#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#showStudentsCompareById#0;n#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="method#showStudentsCompareById#0;class#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="method#showStudentCompareBySurname#0;class#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="n#!!doc;n#showArray#0;n#ShowSortUsingComparator#0" expanded="false" />
-            <element signature="method#showArray#0;class#ShowSortUsingComparator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

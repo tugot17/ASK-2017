@@ -1,6 +1,6 @@
 package Sorts.SimpleSorts.SelectSort;
 
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Messages.SortMessage;
 import Sorts.ISort;
@@ -19,7 +19,7 @@ public class SelectSort extends Sort implements ISort {
     //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
-        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }
@@ -31,7 +31,7 @@ public class SelectSort extends Sort implements ISort {
         int theBiggest;
         int helper;
 
-        stoper.start();
+        stopper.start();
         for (int i=array.length - 1; i > 0; i--) {
             theBiggest = 0;
 
@@ -49,9 +49,9 @@ public class SelectSort extends Sort implements ISort {
             }
 
         }
-        stoper.stop();
+        stopper.stop();
 
-        SortMessage.showSortInformations("Select", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Select", array.length, amountOfComparasions, stopper.getResult());
 
 
 

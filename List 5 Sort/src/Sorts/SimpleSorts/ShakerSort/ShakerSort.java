@@ -1,6 +1,6 @@
 package Sorts.SimpleSorts.ShakerSort;
 
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Messages.SortMessage;
 import Sorts.ISort;
@@ -20,7 +20,7 @@ public class ShakerSort extends Sort implements ISort{
     //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
-        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }
@@ -35,7 +35,7 @@ public class ShakerSort extends Sort implements ISort{
         int begenning = 0;
 
 
-        stoper.start();
+        stopper.start();
         boolean swapped;
         do {
             swapped = false;
@@ -71,9 +71,9 @@ public class ShakerSort extends Sort implements ISort{
 
         } while (swapped);
 
-        stoper.stop();
+        stopper.stop();
 
-        SortMessage.showSortInformations("Shaker", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Shaker", array.length, amountOfComparasions, stopper.getResult());
 
     }
     //</editor-fold>

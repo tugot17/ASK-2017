@@ -2,7 +2,7 @@ package Sorts.SimpleSorts.BubbleSort;
 
 import Messages.SortMessage;
 import Sorts.ISort;
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 
 
@@ -24,7 +24,7 @@ public class BubbleSort extends Sort implements ISort {
 
     @Override
     public void sort() {
-        array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
          sort(array);
     }
@@ -35,7 +35,7 @@ public class BubbleSort extends Sort implements ISort {
         this.array = array;
         int helper;
 
-        stoper.start();
+        stopper.start();
         for (int i = array.length - 1; i >= 0; i--)
         {
             for (int j = 0; j < i; j++)
@@ -50,9 +50,9 @@ public class BubbleSort extends Sort implements ISort {
 
             }
         }
-        stoper.stop();
+        stopper.stop();
 
-        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stopper.getResult());
 
     }
 

@@ -1,5 +1,7 @@
 package Sorts;
 
+import Helpers.Sort;
+
 /**
  * Created by pmazurek on 19.04.2017.
  */

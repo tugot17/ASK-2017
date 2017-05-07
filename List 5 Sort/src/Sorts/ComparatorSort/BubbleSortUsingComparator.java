@@ -1,10 +1,7 @@
 package Sorts.ComparatorSort;
 
-import Helpers.RandomGenerator;
-import Helpers.Sort;
-import Helpers.Stoper;
+import Helpers.Stopper;
 import Messages.SortMessage;
-import Sorts.ISort;
 
 import java.util.Comparator;
 
@@ -17,13 +14,13 @@ public class BubbleSortUsingComparator<T> {
 
     T[] array;
 
-    Stoper stoper;
+    Stopper stopper;
 
     int amountOfComparasions;
 
     public BubbleSortUsingComparator(int amountOfSortedElements, Comparator<T> comparator) {
         this.comparator = comparator;
-        this.stoper = new Stoper("sort stopper");
+        this.stopper = new Stopper("sort stopper");
         amountOfComparasions = 0;
     }
 
@@ -33,7 +30,7 @@ public class BubbleSortUsingComparator<T> {
         this.array = array;
         T helper;
 
-        stoper.start();
+        stopper.start();
         for (int i = array.length - 1; i >= 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (comparator.compare(array[j], array[j + 1]) > 0) {
@@ -45,9 +42,9 @@ public class BubbleSortUsingComparator<T> {
 
             }
         }
-        stoper.stop();
+        stopper.stop();
 
-        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stopper.getResult());
 
     }
 

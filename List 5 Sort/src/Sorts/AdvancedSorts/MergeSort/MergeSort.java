@@ -1,6 +1,6 @@
 package Sorts.AdvancedSorts.MergeSort;
 
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Messages.SortMessage;
 import Sorts.ISort;
@@ -17,7 +17,7 @@ public class MergeSort extends Sort implements ISort {
 
     @Override
     public void sort() {
-        this.array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }
@@ -29,11 +29,11 @@ public class MergeSort extends Sort implements ISort {
         number = array.length;
         this.helperArray = new int[number];
 
-        stoper.start();
+        stopper.start();
         mergesort(0, number - 1);
-        stoper.stop();
+        stopper.stop();
 
-        SortMessage.showSortInformations("Merge", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Merge", array.length, amountOfComparasions, stopper.getResult());
 
     }
 

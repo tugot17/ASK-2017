@@ -1,7 +1,6 @@
 package Sorts;
 
-import Helpers.RandomGenerator;
-import org.junit.Before;
+import Helpers.IntegersGenerator;
 
 import static org.junit.Assert.*;
 /**
@@ -47,7 +46,7 @@ public class SortTestingHelper {
     }
 
     public static void testDescendingSort(ISort sort) {
-        int array[] = RandomGenerator.createRandomArrayGenerator(5000);
+        int array[] = IntegersGenerator.createRandomArrayGenerator(5000);
 
         sort.sort(array);
 
@@ -56,7 +55,7 @@ public class SortTestingHelper {
     }
 
     public static void testAscendingSort(ISort sort) {
-        int array[] = RandomGenerator.createRandomArrayGenerator(5000);
+        int array[] = IntegersGenerator.createRandomArrayGenerator(5000);
 
         sort.sort(array);
 

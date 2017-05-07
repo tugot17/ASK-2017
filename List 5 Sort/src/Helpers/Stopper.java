@@ -3,7 +3,7 @@ package Helpers;
 /**
  * Created by pmazurek on 19.04.2017.
  */
-public class Stoper {
+public class Stopper {
 
     //region Variables
     private long start;
@@ -14,13 +14,13 @@ public class Stoper {
     //endregion
 
     //region Constructors
-    public Stoper()
+    public Stopper()
     {
 
         this("");
     }
 
-    public Stoper(String nazwa)
+    public Stopper(String nazwa)
     {
 
         this.nazwa = nazwa;

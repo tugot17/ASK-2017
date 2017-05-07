@@ -8,7 +8,7 @@ public class Sort {
     //<editor-fold desc="Elements">
     protected int amountOfSortedElements;
     protected int[] array;
-    protected Stoper stoper;
+    protected Stopper stopper;
     protected double amountOfComparasions;
     //</editor-fold>
 
@@ -16,7 +16,7 @@ public class Sort {
     public Sort(int amountOfSortedElements) {
         this.amountOfSortedElements = amountOfSortedElements;
         this.array = new int[amountOfSortedElements];
-        stoper = new Stoper("sort stoper");
+        stopper = new Stopper("sort stopper");
         amountOfComparasions = 0;
     }
     //</editor-fold>
@@ -27,7 +27,13 @@ public class Sort {
     }
 
     public double getLastSortTime() {
-        return stoper.getResult();
+        return stopper.getResult();
+    }
+
+    public void showArray() {
+        for (int i = 0; i< array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
     }
     //</editor-fold>
 }

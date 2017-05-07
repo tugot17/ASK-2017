@@ -1,6 +1,6 @@
 package Sorts.SimpleSorts.InsertSort;
 
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Messages.SortMessage;
 import Sorts.ISort;
@@ -22,7 +22,7 @@ public class InsertSort extends Sort implements ISort {
     //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
-        this.array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
          sort(array);
     }
@@ -36,7 +36,7 @@ public class InsertSort extends Sort implements ISort {
         int key;
         int i;
 
-        stoper.start();
+        stopper.start();
         for (int j = 1; j < array.length; j++)
         {
             key = array[ j ];
@@ -47,10 +47,10 @@ public class InsertSort extends Sort implements ISort {
             }
             array[ i+1 ] = key;
         }
-        stoper.stop();
+        stopper.stop();
 
 
-        SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stopper.getResult());
 
     }
     //</editor-fold>

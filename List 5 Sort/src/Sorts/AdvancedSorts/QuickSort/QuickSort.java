@@ -1,6 +1,6 @@
 package Sorts.AdvancedSorts.QuickSort;
 
-import Helpers.RandomGenerator;
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Messages.SortMessage;
 import Sorts.ISort;
@@ -19,7 +19,7 @@ public class QuickSort extends Sort implements ISort {
     //<editor-fold desc="Public Methods">
     @Override
     public void sort() {
-        this.array = RandomGenerator.createRandomArrayGenerator(amountOfSortedElements);
+        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }
@@ -33,7 +33,7 @@ public class QuickSort extends Sort implements ISort {
         amountOfSortedElements = values.length;
         quicksort(0, amountOfSortedElements - 1);
 
-        SortMessage.showSortInformations("Merge", array.length, amountOfComparasions, stoper.getResult());
+        SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
 
     }
     //</editor-fold>

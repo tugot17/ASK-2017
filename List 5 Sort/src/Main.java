@@ -1,6 +1,7 @@
 
-import Recursion.Recursion1;
+import Sorts.AdvancedSorts.MergeSort.MergeSort;
 import Sorts.ComparatorSort.ShowSortUsingComparator;
+import Sorts.ISort;
 
 public class Main {
 
@@ -16,11 +17,11 @@ public class Main {
 //        insertSort.sort();
 //        shakerSort.sort();
 
-        ShowSortUsingComparator.showStudentsCompareById();
-        ShowSortUsingComparator.showStudentCompareBySurname();
+//        ShowSortUsingComparator.showStudentsCompareById();
+//        ShowSortUsingComparator.showStudentCompareBySurname();
 
-//        ISort mergeSort = new MergeSort(3);
-//        mergeSort.sort();
+        ISort mergeSort = new MergeSort(3000);
+        mergeSort.sort();
 
     }
 }

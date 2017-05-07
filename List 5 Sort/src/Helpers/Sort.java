@@ -25,6 +25,10 @@ public class Sort {
     public double getAmountOfComparasions() {
         return amountOfComparasions;
     }
+
+    public double getLastSortTime() {
+        return stoper.getResult();
+    }
     //</editor-fold>
 }
 

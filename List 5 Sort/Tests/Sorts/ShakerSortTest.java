@@ -13,7 +13,7 @@ public class ShakerSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new ShakerSort(0);
+        sort = new ShakerSort();
 
     }
 

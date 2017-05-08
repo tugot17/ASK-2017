@@ -14,7 +14,7 @@ public class QuickSortTest {
     @Before
     public void setUp() throws Exception {
 
-        sort = new QuickSort(0);
+        sort = new QuickSort();
     }
 
     @Test

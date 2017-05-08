@@ -1,18 +1,24 @@
 package Sorts;
 
-import Sorts.AdvancedSorts.MergeSort.MergeSort;
+import Sorts.SimpleSorts.BubbleSort.BubbleSort;
+import Sorts.SimpleSorts.SelectSort.SelectSort;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 /**
- * Created by pmazurek on 21.04.2017.
+ * Created by pmazurek on 08.05.2017.
  */
-public class MergeSortTest {
-    private ISort sort;
+public class ShellSortTest {
+
+
+    ISort sort;
+
 
     @Before
     public void setUp() throws Exception {
-        sort = new MergeSort();
+        sort = new SelectSort();
     }
 
     @Test
@@ -39,5 +45,6 @@ public class MergeSortTest {
     public void sort5() throws Exception {
         SortTestingHelper.testAscendingSort(sort);
     }
+
 
 }

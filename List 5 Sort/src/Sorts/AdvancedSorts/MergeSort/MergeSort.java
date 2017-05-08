@@ -11,13 +11,11 @@ import Sorts.ISort;
 public class MergeSort extends Sort implements ISort {
     private int[] helperArray;
 
-    public MergeSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
 
     @Override
-    public void sort() {
-        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
+    public void sort(int amountOfSortedElements) {
+        this.amountOfSortedElements = amountOfSortedElements;
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }

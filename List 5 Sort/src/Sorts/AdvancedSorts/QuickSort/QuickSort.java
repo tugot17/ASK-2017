@@ -10,16 +10,11 @@ import Sorts.ISort;
  */
 public class QuickSort extends Sort implements ISort {
 
-    //<editor-fold desc="Constructors">
-    public QuickSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
-    //</editor-fold>
-
     //<editor-fold desc="Public Methods">
     @Override
-    public void sort() {
-        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
+    public void sort(int amountOfSortedElements) {
+        this.amountOfSortedElements = amountOfSortedElements;
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);
     }

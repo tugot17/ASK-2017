@@ -13,7 +13,7 @@ public class SelectSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new InsertSort(1);
+        sort = new InsertSort();
     }
 
     @Test

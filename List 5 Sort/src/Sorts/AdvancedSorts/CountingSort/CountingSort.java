@@ -1,5 +1,6 @@
 package Sorts.AdvancedSorts.CountingSort;
 
+import Helpers.IntegersGenerator;
 import Helpers.Sort;
 import Sorts.ISort;
 
@@ -12,12 +13,6 @@ public class CountingSort extends Sort implements ISort {
     private int theBiggestNumber;
     //</editor-fold>
 
-    //<editor-fold desc="Constructors">
-    public CountingSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
-    //</editor-fold>
-
     //<editor-fold desc="Public Methods">
     @Override
     public void sort(int[] array) {
@@ -25,25 +20,11 @@ public class CountingSort extends Sort implements ISort {
     }
 
     @Override
-    public void sort() {
-        theBiggestNumber = findTheBiggest();
+    public void sort(int amountOfSortedElements) {
+        this.amountOfSortedElements = amountOfSortedElements;
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
-        int[] helperArray = new int[array.length];
-
-        int helper;
-
-
-        for (int i = 0; i < array.length; i++) {
-            helperArray[i] = 0;
-        }
-
-        for (int i = 0; i < array.length; i++) {
-            helperArray[array[i]]++;
-        }
-
-//        for (int i=array)
-
-
+        sort(array);
     }
 
     private int findTheBiggest() {
@@ -56,5 +37,7 @@ public class CountingSort extends Sort implements ISort {
         }
         return theBiggestNumber;
     }
+
+
     //</editor-fold>
 }

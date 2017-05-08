@@ -13,9 +13,7 @@ public class Sort {
     //</editor-fold>
 
     //<editor-fold desc="Constructors">
-    public Sort(int amountOfSortedElements) {
-        this.amountOfSortedElements = amountOfSortedElements;
-        this.array = new int[amountOfSortedElements];
+    public Sort() {
         stopper = new Stopper("sort stopper");
         amountOfComparasions = 0;
     }

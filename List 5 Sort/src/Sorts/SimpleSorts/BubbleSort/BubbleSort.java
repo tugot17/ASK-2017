@@ -11,20 +11,13 @@ import Helpers.Sort;
  */
 public class BubbleSort extends Sort implements ISort {
 
-    //<editor-fold desc="Constructors">
-
-    public BubbleSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
-
-    //</editor-fold>
-
     //<editor-fold desc="Public Methods">
 
 
     @Override
-    public void sort() {
-        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
+    public void sort(int amountOfSortedElements) {
+
+         array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
          sort(array);
     }

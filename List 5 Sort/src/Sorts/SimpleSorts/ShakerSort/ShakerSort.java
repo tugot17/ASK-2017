@@ -10,16 +10,10 @@ import Sorts.ISort;
  */
 public class ShakerSort extends Sort implements ISort{
 
-
-    //<editor-fold desc="Constructors">
-    public ShakerSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
-    //</editor-fold>
-
     //<editor-fold desc="Public Methods">
     @Override
-    public void sort() {
+    public void sort(int amountOfSortedElements) {
+        this.amountOfSortedElements = amountOfSortedElements;
         array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
         sort(array);

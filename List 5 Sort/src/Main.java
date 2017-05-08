@@ -14,27 +14,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ISort bubbleSort = new BubbleSort(5000);
-        ISort selectSort = new SelectSort(5000);
-        ISort insertSort = new InsertSort(5000);
-        ISort shakerSort = new ShakerSort(5000);
-        ISort quickSort  = new QuickSort(5000);
+        ISort bubbleSort = new BubbleSort();
+        ISort selectSort = new SelectSort();
+        ISort insertSort = new InsertSort();
+        ISort shakerSort = new ShakerSort();
+        ISort quickSort  = new QuickSort();
+        ISort mergeSort  = new MergeSort();
 
-        SortsCompare.comapare2Sorts(bubbleSort, quickSort);
+
+//        SortsCompare.comapare2Sorts(bubbleSort, quickSort);
 //
-//        bubbleSort.sort();
-//        selectSort.sort();
-//        insertSort.sort();
-//        shakerSort.sort();
+//        SortsCompare.comapare2Sorts(bubbleSort, mergeSort);
+
+        SortsCompare.comapare2Sorts(insertSort, quickSort);
+
+        SortsCompare.comapare2Sorts(insertSort, mergeSort);
+
+        SortsCompare.comapare2Sorts(shakerSort, quickSort);
+
+        SortsCompare.comapare2Sorts(selectSort, mergeSort);
+
 
 //        ShowSortUsingComparator.showStudentsCompareById();
 //        ShowSortUsingComparator.showStudentCompareBySurname();
-
-//        int [] arrayToSort = IntegersGenerator.createAlmostSortedArray(1000);
-//
-//        MergeSort mergeSort = new MergeSort(1);
-//
-//        mergeSort.sort(arrayToSort);
 
 
     }

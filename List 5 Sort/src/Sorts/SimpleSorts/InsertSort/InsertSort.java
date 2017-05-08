@@ -10,21 +10,13 @@ import Sorts.ISort;
  */
 public class InsertSort extends Sort implements ISort {
 
-
-    //<editor-fold desc="Constructors">
-
-    public InsertSort(int amountOfSortedElements) {
-        super(amountOfSortedElements);
-    }
-
-    //</editor-fold>
-
     //<editor-fold desc="Public Methods">
     @Override
-    public void sort() {
-        this.array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
+    public void sort(int amountOfSortedElements) {
+        this.amountOfSortedElements = amountOfSortedElements;
+        array = IntegersGenerator.createRandomArrayGenerator(amountOfSortedElements);
 
-         sort(array);
+        sort(array);
     }
 
 

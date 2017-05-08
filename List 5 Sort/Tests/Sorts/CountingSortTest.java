@@ -14,7 +14,7 @@ public class CountingSortTest {
 
     @Before
     public void setUp() throws Exception {
-        sort = new CountingSort(1);
+        sort = new CountingSort();
     }
 
     @Ignore

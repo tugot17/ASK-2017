@@ -8,6 +8,6 @@ import Helpers.Sort;
 public interface ISort {
     void sort(int[] array);
 
-    void sort();
+    void sort(int amountOfSortedElements);
 
 }

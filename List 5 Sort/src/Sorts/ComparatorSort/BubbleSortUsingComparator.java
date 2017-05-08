@@ -10,6 +10,7 @@ import java.util.Comparator;
  */
 public class BubbleSortUsingComparator<T> {
 
+    //<editor-fold desc="Elements">
     Comparator<T> comparator;
 
     T[] array;
@@ -17,7 +18,9 @@ public class BubbleSortUsingComparator<T> {
     Stopper stopper;
 
     int amountOfComparasions;
+    //</editor-fold>
 
+    //<editor-fold desc="Public Methods">
     public BubbleSortUsingComparator(int amountOfSortedElements, Comparator<T> comparator) {
         this.comparator = comparator;
         this.stopper = new Stopper("sort stopper");
@@ -47,5 +50,6 @@ public class BubbleSortUsingComparator<T> {
         SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stopper.getResult());
 
     }
+    //</editor-fold>
 
 }

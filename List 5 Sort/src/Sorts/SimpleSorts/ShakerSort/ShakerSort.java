@@ -60,6 +60,9 @@ public class ShakerSort extends Sort implements ISort{
                 amountOfComparasions++;
 
             }
+            if (!swapped) {
+                break;
+            }
 
             begenning++;
 

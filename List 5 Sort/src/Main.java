@@ -1,6 +1,7 @@
 
 import Helpers.IntegersGenerator;
 import Helpers.SortsCompare;
+import Sorts.AdvancedSorts.CountingSort.CountingSort;
 import Sorts.AdvancedSorts.MergeSort.MergeSort;
 import Sorts.AdvancedSorts.QuickSort.QuickSort;
 import Sorts.ComparatorSort.ShowSortUsingComparator;
@@ -26,17 +27,18 @@ public class Main {
 //
 //        SortsCompare.comapare2Sorts(bubbleSort, mergeSort);
 
-        SortsCompare.comapare2Sorts(insertSort, quickSort);
+//        SortsCompare.comapare2Sorts(insertSort, quickSort);
+//
+//        SortsCompare.comapare2Sorts(insertSort, mergeSort);
+//
+//        SortsCompare.comapare2Sorts(shakerSort, bubbleSort);
+//
+//        SortsCompare.comapare2Sorts(selectSort, mergeSort);
 
-        SortsCompare.comapare2Sorts(insertSort, mergeSort);
 
-        SortsCompare.comapare2Sorts(shakerSort, quickSort);
+        CountingSort countingSort = new CountingSort();
 
-        SortsCompare.comapare2Sorts(selectSort, mergeSort);
-
-
-//        ShowSortUsingComparator.showStudentsCompareById();
-//        ShowSortUsingComparator.showStudentCompareBySurname();
+        countingSort.sort(33);
 
 
     }

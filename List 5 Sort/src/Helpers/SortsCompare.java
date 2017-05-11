@@ -8,7 +8,7 @@ import Sorts.ISort;
 public class SortsCompare {
 
     //<editor-fold desc="Elements">
-    private static int amountOfElements = 50000;
+    private static int amountOfElements = 10000;
     //</editor-fold>
 
     //<editor-fold desc="Public Methods">
@@ -18,17 +18,17 @@ public class SortsCompare {
 
         compareSortOfSorted(s1, s2);
 
-        compareSortOfNotSoted(s1,s2);
+        compareSortOfNotSorted(s1,s2);
 
     }
     //</editor-fold>
 
     //<editor-fold desc="Private Methods">
-    private static void compareSortOfNotSoted(ISort s1, ISort s2) {
+    private static void compareSortOfNotSorted(ISort s1, ISort s2) {
         int [] notSortedArray1;
         int [] notSortedArray2;
 
-        System.out.println("\nAlmost Sorted Arrays");
+        System.out.println("\nNot Sorted Arrays");
         notSortedArray1 = IntegersGenerator.createRandomArrayGenerator(amountOfElements);
         notSortedArray2 = notSortedArray1.clone();
 

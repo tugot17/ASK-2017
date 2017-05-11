@@ -2,6 +2,7 @@ package Sorts.AdvancedSorts.CountingSort;
 
 import Helpers.IntegersGenerator;
 import Helpers.Sort;
+import Messages.SortMessage;
 import Sorts.ISort;
 
 /**
@@ -23,13 +24,18 @@ public class CountingSort extends Sort implements ISort {
     public void sort(int[] array) {
         int biggestNumber = findBiggestNumeber(array);
 
+        stopper.start();
         int [] specificNumberReiterationsArray = countReiterationsOfSpcyficNumber(array, biggestNumber); //it keeps amount of specific number reiterations
 
         int [] resultArray = putNumbersOnProperPlacesInArray(specificNumberReiterationsArray, array.length);
+        stopper.stop();
 
         for (int i = 0; i < array.length; i++)
             array[i] = resultArray[i];
 
+        SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
+
+        amountOfComparasions = 0;
     }
     //</editor-fold>
 
@@ -46,6 +52,8 @@ public class CountingSort extends Sort implements ISort {
                 number++;
                 specificNumberReiterationsArray[i]--;
             }
+            amountOfComparasions++;
+
         }
 
         return resultArray;
@@ -56,8 +64,12 @@ public class CountingSort extends Sort implements ISort {
     private int[] countReiterationsOfSpcyficNumber(int[] array, int biggestNumber) {
         int [] specificNumberReiterationsArray = new int[biggestNumber + 1];
 
-        for (int i = 0; i < array.length; i++)
+        for (int i = 0; i < array.length; i++) {
             specificNumberReiterationsArray[array[i]]++;
+
+            amountOfComparasions++;
+        }
+
 
         return specificNumberReiterationsArray;
     }

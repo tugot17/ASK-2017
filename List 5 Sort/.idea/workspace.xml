@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f06ccdb-7459-4e5b-a1cf-ff00361af3a8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Main.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/CountingSort/CountingSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/CountingSort/CountingSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/MergeSort/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/MergeSort/MergeSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/SortsCompare.java" afterPath="$PROJECT_DIR$/src/Helpers/SortsCompare.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +29,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShakerSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShakerSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -38,164 +56,123 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/BubbleSortTest.java">
+      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="355">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
-                <element signature="docComment;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#BubbleSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#BubbleSortTest#0" expanded="false" />
+                <element signature="docComment;class#CountingSort#0" expanded="false" />
+                <element signature="method#sort#0;class#CountingSort#0" expanded="false" />
+                <element signature="method#findBiggestNumeber#0;class#CountingSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountingSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#CountingSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#CountingSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/InsertSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#InsertSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#InsertSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#MergeSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#MergeSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/QuickSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#QuickSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#QuickSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/SelectSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#SelectSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#SelectSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShakerSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/ShakerSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#ShakerSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#ShakerSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShellSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/ShellSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="docComment;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#setUp#0;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#sort1#0;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#sort2#0;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#sort3#0;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#sort4#0;class#ShellSortTest#0" expanded="false" />
-                <element signature="method#sort5#0;class#ShellSortTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortTestingHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/Sorts/SortTestingHelper.java">
+      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="docComment;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#testSingleSort1#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#testSingleSort2#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#testSingleSort3#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#testDescendingSort#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#testAscendingSort#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#isSortedAscending#0;class#SortTestingHelper#0" expanded="false" />
-                <element signature="method#isSortedDescending#0;class#SortTestingHelper#0" expanded="false" />
+                <element signature="docComment;class#ShellSort#0" expanded="false" />
+                <element signature="n#!!doc;n#sort#0;n#ShellSort#0" expanded="false" />
+                <element signature="method#sort#0;class#ShellSort#0" expanded="false" />
+                <element signature="method#sort#1;class#ShellSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="docComment;class#QuickSort#0" expanded="false" />
+                <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
+                <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
+                <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
+                <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="docComment;class#MergeSort#0" expanded="false" />
+                <element signature="n#!!doc;n#helperArray#0;n#MergeSort#0" expanded="false" />
+                <element signature="method#sort#0;class#MergeSort#0" expanded="false" />
+                <element signature="n#!!doc;n#mergesort#0;n#MergeSort#0" expanded="false" />
+                <element signature="method#mergesort#0;class#MergeSort#0" expanded="false" />
+                <element signature="method#merge#0;class#MergeSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortsCompare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="docComment;class#SortsCompare#0" expanded="false" />
+                <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
+                <element signature="method#compareSortOfAlmostSorted#0;class#SortsCompare#0" expanded="false" />
+                <element signature="method#compareSortOfSorted#0;class#SortsCompare#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#BubbleSort#0" expanded="false" />
+                <element signature="e#252#289#0" expanded="false" />
+                <element signature="method#sort#0;class#BubbleSort#0" expanded="false" />
+                <element signature="method#sort#1;class#BubbleSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#InsertSort#0" expanded="false" />
+                <element signature="n#!!doc;n#sort#0;n#InsertSort#0" expanded="false" />
+                <element signature="method#sort#0;class#InsertSort#0" expanded="false" />
+                <element signature="method#sort#1;class#InsertSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#SelectSort#0" expanded="false" />
+                <element signature="n#!!doc;n#sort#0;n#SelectSort#0" expanded="false" />
+                <element signature="method#sort#0;class#SelectSort#0" expanded="false" />
+                <element signature="method#sort#1;class#SelectSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -260,21 +237,21 @@
         <option value="$PROJECT_DIR$/Tests/Sorts/MergeSortTest.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/ShakerSortTest.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/Student.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/ShellSortTest.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/Tests/Sorts/CountingSortTest.java" />
         <option value="$PROJECT_DIR$/src/Helpers/IntegersGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
         <option value="$PROJECT_DIR$/src/Helpers/SortsCompare.java" />
         <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
       </list>
     </option>
   </component>
@@ -334,10 +311,6 @@
               <option name="myItemId" value="Tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -392,6 +365,88 @@
               <option name="myItemId" value="SimpleSorts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShakerSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelectSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InsertSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BubbleSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -412,6 +467,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AdvancedSorts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List 5 Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +561,7 @@
       <recent name="C:\Users\pmazurek\Documents\GitHub\AiSD-2017\List 5 Stacks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -1003,8 +1076,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CountingSortTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.CountingSortTest.sort5" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CountingSortTest.sort1" />
@@ -1051,7 +1124,7 @@
       <workItem from="1494221955053" duration="4523000" />
       <workItem from="1494233101193" duration="1433000" />
       <workItem from="1494234834415" duration="3957000" />
-      <workItem from="1494489026136" duration="7516000" />
+      <workItem from="1494489026136" duration="9093000" />
     </task>
     <task id="LOCAL-00001" summary="Bubble sort improved, added class Sort (individual Sorts extends from it)">
       <created>1492627127168</created>
@@ -1099,9 +1172,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingSortTest - 2017.05.11 at 11h 24m 27s.xml">
-      <configuration name="CountingSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountingSortTest - 2017.05.11 at 11h 24m 33s.xml">
       <configuration name="CountingSortTest" configurationId="JUnit" />
     </history-entry>
@@ -1120,6 +1190,9 @@
     <history-entry file="MergeSortTest - 2017.05.11 at 11h 52m 15s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeSortTest - 2017.05.11 at 12h 00m 39s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Sorts_in_List_5_Stacks - 2017.05.11 at 11h 27m 10s.xml">
       <configuration name="Sorts in List 5 Stacks" configurationId="JUnit" />
     </history-entry>
@@ -1131,7 +1204,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107174000" />
+    <option name="totallyTimeSpent" value="108751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1219,7 +1292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java</url>
-          <line>38</line>
+          <line>39</line>
           <properties class="Sorts.AdvancedSorts.MergeSort.MergeSort" />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
@@ -1230,7 +1303,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1342,33 +1415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="40" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#SortsCompare#0" expanded="false" />
-            <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
-            <element signature="n#!!doc;n#compareSorts#0;n#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSorts#0;class#SortsCompare#0" expanded="false" />
-            <element signature="n#!!doc;n#compareSortOfNotSorted#0;n#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSortOfNotSorted#0;class#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSortOfAlmostSorted#0;class#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSortOfSorted#0;class#SortsCompare#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/Stopper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1447,69 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#CountingSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#CountingSort#0" expanded="false" />
-            <element signature="method#sort#0;class#CountingSort#0" expanded="false" />
-            <element signature="method#sort#1;class#CountingSort#0" expanded="false" />
-            <element signature="n#!!doc;n#putNumbersOnProperPlacesInArray#0;n#CountingSort#0" expanded="false" />
-            <element signature="method#putNumbersOnProperPlacesInArray#0;class#CountingSort#0" expanded="false" />
-            <element signature="method#countReiterationsOfSpcyficNumber#0;class#CountingSort#0" expanded="false" />
-            <element signature="method#findBiggestNumeber#0;class#CountingSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#MergeSort#0" expanded="false" />
-            <element signature="n#!!doc;n#helperArray#0;n#MergeSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#MergeSort#0" expanded="false" />
-            <element signature="method#sort#0;class#MergeSort#0" expanded="false" />
-            <element signature="method#sort#1;class#MergeSort#0" expanded="false" />
-            <element signature="n#!!doc;n#mergesort#0;n#MergeSort#0" expanded="false" />
-            <element signature="method#mergesort#0;class#MergeSort#0" expanded="false" />
-            <element signature="method#merge#0;class#MergeSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#QuickSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#QuickSort#0" expanded="false" />
-            <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
-            <element signature="method#sort#1;class#QuickSort#0" expanded="false" />
-            <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
-            <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
-            <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ShellSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#ShellSort#0" expanded="false" />
-            <element signature="method#sort#0;class#ShellSort#0" expanded="false" />
-            <element signature="method#sort#1;class#ShellSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1572,58 +1555,6 @@
           <folding>
             <element signature="docComment;class#StudentComparatorSurname#0" expanded="false" />
             <element signature="method#compare#0;class#StudentComparatorSurname#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#BubbleSort#0" expanded="false" />
-            <element signature="e#252#289#0" expanded="false" />
-            <element signature="method#sort#0;class#BubbleSort#0" expanded="false" />
-            <element signature="method#sort#1;class#BubbleSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#InsertSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#InsertSort#0" expanded="false" />
-            <element signature="method#sort#0;class#InsertSort#0" expanded="false" />
-            <element signature="method#sort#1;class#InsertSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#SelectSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#SelectSort#0" expanded="false" />
-            <element signature="method#sort#0;class#SelectSort#0" expanded="false" />
-            <element signature="method#sort#1;class#SelectSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#ShakerSort#0" expanded="false" />
-            <element signature="n#!!doc;n#sort#0;n#ShakerSort#0" expanded="false" />
-            <element signature="method#sort#0;class#ShakerSort#0" expanded="false" />
-            <element signature="method#sort#1;class#ShakerSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1769,6 +1700,135 @@
             <element signature="method#testAscendingSort#0;class#SortTestingHelper#0" expanded="false" />
             <element signature="method#isSortedAscending#0;class#SortTestingHelper#0" expanded="false" />
             <element signature="method#isSortedDescending#0;class#SortTestingHelper#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ShellSort#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#ShellSort#0" expanded="false" />
+            <element signature="method#sort#0;class#ShellSort#0" expanded="false" />
+            <element signature="method#sort#1;class#ShellSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#SortsCompare#0" expanded="false" />
+            <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
+            <element signature="method#compareSortOfAlmostSorted#0;class#SortsCompare#0" expanded="false" />
+            <element signature="method#compareSortOfSorted#0;class#SortsCompare#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="docComment;class#MergeSort#0" expanded="false" />
+            <element signature="n#!!doc;n#helperArray#0;n#MergeSort#0" expanded="false" />
+            <element signature="method#sort#0;class#MergeSort#0" expanded="false" />
+            <element signature="n#!!doc;n#mergesort#0;n#MergeSort#0" expanded="false" />
+            <element signature="method#mergesort#0;class#MergeSort#0" expanded="false" />
+            <element signature="method#merge#0;class#MergeSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="docComment;class#QuickSort#0" expanded="false" />
+            <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
+            <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
+            <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
+            <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#CountingSort#0" expanded="false" />
+            <element signature="method#sort#0;class#CountingSort#0" expanded="false" />
+            <element signature="method#findBiggestNumeber#0;class#CountingSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#BubbleSort#0" expanded="false" />
+            <element signature="e#252#289#0" expanded="false" />
+            <element signature="method#sort#0;class#BubbleSort#0" expanded="false" />
+            <element signature="method#sort#1;class#BubbleSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#InsertSort#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#InsertSort#0" expanded="false" />
+            <element signature="method#sort#0;class#InsertSort#0" expanded="false" />
+            <element signature="method#sort#1;class#InsertSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#SelectSort#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#SelectSort#0" expanded="false" />
+            <element signature="method#sort#0;class#SelectSort#0" expanded="false" />
+            <element signature="method#sort#1;class#SelectSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#ShakerSort#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#ShakerSort#0" expanded="false" />
+            <element signature="method#sort#0;class#ShakerSort#0" expanded="false" />
+            <element signature="method#sort#1;class#ShakerSort#0" expanded="false" />
           </folding>
         </state>
       </provider>

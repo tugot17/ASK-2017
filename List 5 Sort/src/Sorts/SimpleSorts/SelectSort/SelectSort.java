@@ -48,7 +48,7 @@ public class SelectSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Select", array.length, amountOfComparasions, stopper.getResult());
 
-
+        amountOfComparasions = 0;
 
     }
     //</editor-fold>

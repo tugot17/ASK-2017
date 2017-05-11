@@ -15,15 +15,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ISort bubbleSort = new BubbleSort();
-        ISort selectSort = new SelectSort();
-        ISort insertSort = new InsertSort();
-        ISort shakerSort = new ShakerSort();
-        ISort quickSort  = new QuickSort();
-        ISort mergeSort  = new MergeSort();
+        ISort bubbleSort   = new BubbleSort();
+        ISort selectSort   = new SelectSort();
+        ISort insertSort   = new InsertSort();
+        ISort shakerSort   = new ShakerSort();
+        ISort quickSort    = new QuickSort();
+        ISort mergeSort    = new MergeSort();
+        ISort countingSort = new CountingSort();
 
 
-        SortsCompare.compareSorts(bubbleSort, quickSort);
+        SortsCompare.compareSorts(quickSort);
 //
 //        SortsCompare.comapare2Sorts(bubbleSort, mergeSort);
 

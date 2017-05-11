@@ -44,6 +44,7 @@ public class InsertSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stopper.getResult());
 
+        amountOfComparasions = 0;
     }
     //</editor-fold>
 

@@ -30,6 +30,7 @@ public class QuickSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
 
+        amountOfComparasions = 0;
     }
     //</editor-fold>
 

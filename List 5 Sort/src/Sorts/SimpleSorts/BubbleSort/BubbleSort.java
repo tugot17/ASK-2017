@@ -47,6 +47,8 @@ public class BubbleSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stopper.getResult());
 
+        amountOfComparasions = 0;
+
     }
 
 

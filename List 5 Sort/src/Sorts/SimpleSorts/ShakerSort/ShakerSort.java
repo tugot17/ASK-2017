@@ -72,6 +72,7 @@ public class ShakerSort extends Sort implements ISort{
 
         SortMessage.showSortInformations("Shaker", array.length, amountOfComparasions, stopper.getResult());
 
+        amountOfComparasions = 0;
     }
     //</editor-fold>
 

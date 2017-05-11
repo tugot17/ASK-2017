@@ -34,6 +34,7 @@ public class MergeSort extends Sort implements ISort {
 
         SortMessage.showSortInformations("Merge", array.length, amountOfComparasions, stopper.getResult());
 
+        amountOfComparasions = 0;
     }
 
     //</editor-fold>

@@ -9,10 +9,8 @@ import Sorts.ISort;
  */
 public class CountingSort extends Sort implements ISort {
 
-    //<editor-fold desc="Elements">
 
-
-
+    //<editor-fold desc="Public Methods">
     @Override
     public void sort(int amountOfSortedElements) {
         this.amountOfSortedElements = amountOfSortedElements;
@@ -33,7 +31,9 @@ public class CountingSort extends Sort implements ISort {
             array[i] = resultArray[i];
 
     }
+    //</editor-fold>
 
+    //<editor-fold desc="Private Methods">
     private int[] putNumbersOnProperPlacesInArray(int[] specificNumberReiterationsArray, int length) {
         int [] resultArray = new int[length];
 
@@ -62,9 +62,6 @@ public class CountingSort extends Sort implements ISort {
         return specificNumberReiterationsArray;
     }
 
-
-    //</editor-fold>
-
     private int findBiggestNumeber(int [] arrayOfNumbers) {
 
         int theBiggest = arrayOfNumbers[0];
@@ -76,6 +73,7 @@ public class CountingSort extends Sort implements ISort {
 
         return theBiggest;
     }
+    //</editor-fold>
 
 
 }

@@ -23,7 +23,7 @@ public class Main {
         ISort mergeSort  = new MergeSort();
 
 
-//        SortsCompare.comapare2Sorts(bubbleSort, quickSort);
+        SortsCompare.compareSorts(bubbleSort, quickSort);
 //
 //        SortsCompare.comapare2Sorts(bubbleSort, mergeSort);
 
@@ -36,9 +36,9 @@ public class Main {
 //        SortsCompare.comapare2Sorts(selectSort, mergeSort);
 
 
-        CountingSort countingSort = new CountingSort();
-
-        countingSort.sort(33);
+//        CountingSort countingSort = new CountingSort();
+//
+//        countingSort.sort(33);
 
 
     }

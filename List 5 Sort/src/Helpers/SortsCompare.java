@@ -12,53 +12,51 @@ public class SortsCompare {
     //</editor-fold>
 
     //<editor-fold desc="Public Methods">
-    public static void comapare2Sorts(ISort s1, ISort s2) {
+    public static void compareSorts(ISort... sorts) {
+        for (int i = 0; i < sorts.length; i++) {
+            compareSortOfSorted(sorts[i]);
+        }
 
-        compareSortOfAlmostSorted(s1, s2);
+        System.out.println();
 
-        compareSortOfSorted(s1, s2);
+        for (int i = 0; i < sorts.length; i++) {
+            compareSortOfAlmostSorted(sorts[i]);
+        }
 
-        compareSortOfNotSorted(s1,s2);
+        System.out.println();
 
+        for (int i = 0; i < sorts.length; i++) {
+            compareSortOfNotSorted(sorts[i]);
+        }
     }
     //</editor-fold>
 
     //<editor-fold desc="Private Methods">
-    private static void compareSortOfNotSorted(ISort s1, ISort s2) {
+    private static void compareSortOfNotSorted(ISort s1) {
         int [] notSortedArray1;
-        int [] notSortedArray2;
 
-        System.out.println("\nNot Sorted Arrays");
+        System.out.println("Not Sorted Arrays");
         notSortedArray1 = IntegersGenerator.createRandomArrayGenerator(amountOfElements);
-        notSortedArray2 = notSortedArray1.clone();
 
         s1.sort(notSortedArray1);
-        s2.sort(notSortedArray2);
     }
 
-    private static void compareSortOfAlmostSorted (ISort s1, ISort s2) {
+    private static void compareSortOfAlmostSorted (ISort s1) {
         int [] almostSortedArray1;
-        int [] almostSortedArray2;
 
         System.out.println("Almost Sorted Arrays");
         almostSortedArray1 = IntegersGenerator.createAlmostSortedArray(amountOfElements);
-        almostSortedArray2 = almostSortedArray1.clone();
 
         s1.sort(almostSortedArray1);
-        s2.sort(almostSortedArray2);
     }
 
-    private static void compareSortOfSorted(ISort s1, ISort s2) {
+    private static void compareSortOfSorted(ISort s1) {
         int [] sortedArray1;
-        int [] sortedArray2;
 
-        System.out.println("\nSorted Array");
+        System.out.println("Sorted Array");
         sortedArray1 = IntegersGenerator.createAscendingSortedArray(amountOfElements);
-        sortedArray2 = sortedArray1.clone();
 
         s1.sort(sortedArray1);
-        s2.sort(sortedArray2);
-
     }
     //</editor-fold>
 

@@ -9,9 +9,12 @@ import Sorts.ISort;
  * Created by pmazurek on 21.04.2017.
  */
 public class MergeSort extends Sort implements ISort {
+
+    //<editor-fold desc="Elements">
     private int[] helperArray;
+    //</editor-fold>
 
-
+    //<editor-fold desc="Public Methods">
     @Override
     public void sort(int amountOfSortedElements) {
         this.amountOfSortedElements = amountOfSortedElements;
@@ -20,11 +23,9 @@ public class MergeSort extends Sort implements ISort {
         sort(array);
     }
 
-    private int number;
-
     public void sort(int[] array) {
         this.array = array;
-        number = array.length;
+        int number = array.length;
         this.helperArray = new int[number];
 
         stopper.start();
@@ -35,6 +36,9 @@ public class MergeSort extends Sort implements ISort {
 
     }
 
+    //</editor-fold>
+
+    //<editor-fold desc="Private Methods">
     private void mergesort(int low, int high) {
         if (low < high) {
             int middle = (low + high)  / 2;
@@ -76,9 +80,6 @@ public class MergeSort extends Sort implements ISort {
         }
 
     }
-
-
     //</editor-fold>
-
 
 }

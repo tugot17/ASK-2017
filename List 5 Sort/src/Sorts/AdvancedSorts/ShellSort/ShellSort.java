@@ -9,7 +9,7 @@ import Sorts.ISort;
  */
 public class ShellSort extends Sort implements ISort {
 
-
+    //<editor-fold desc="Public Methods">
     @Override
     public void sort(int amountOfSortedElements) {
         this.amountOfSortedElements = amountOfSortedElements;
@@ -32,6 +32,6 @@ public class ShellSort extends Sort implements ISort {
             }
         }
     }
-
+    //</editor-fold>
 
 }

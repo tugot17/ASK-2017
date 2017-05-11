@@ -10,14 +10,8 @@ import Sorts.ISort;
 public class CountingSort extends Sort implements ISort {
 
     //<editor-fold desc="Elements">
-    private int theBiggestNumber;
-    //</editor-fold>
 
-    //<editor-fold desc="Public Methods">
-    @Override
-    public void sort(int[] array) {
 
-    }
 
     @Override
     public void sort(int amountOfSortedElements) {
@@ -27,17 +21,61 @@ public class CountingSort extends Sort implements ISort {
         sort(array);
     }
 
-    private int findTheBiggest() {
-        int theBiggestNumber = array[0];
+    @Override
+    public void sort(int[] array) {
+        int biggestNumber = findBiggestNumeber(array);
 
-        for (int i = 1; i < array.length; i++) {
-            if (array[i] > theBiggestNumber)
-                theBiggestNumber = array[i];
+        int [] specificNumberReiterationsArray = countReiterationsOfSpcyficNumber(array, biggestNumber); //it keeps amount of specific number reiterations
 
+        int [] resultArray = putNumbersOnProperPlacesInArray(specificNumberReiterationsArray, array.length);
+
+        for (int i = 0; i < array.length; i++)
+            array[i] = resultArray[i];
+
+    }
+
+    private int[] putNumbersOnProperPlacesInArray(int[] specificNumberReiterationsArray, int length) {
+        int [] resultArray = new int[length];
+
+        int number = 0;
+
+        for (int i = 0; i < specificNumberReiterationsArray.length; i++) {
+
+            while (specificNumberReiterationsArray[i] > 0) {
+                resultArray[number] = i;
+                number++;
+                specificNumberReiterationsArray[i]--;
+            }
         }
-        return theBiggestNumber;
+
+        return resultArray;
+
+
+    }
+
+    private int[] countReiterationsOfSpcyficNumber(int[] array, int biggestNumber) {
+        int [] specificNumberReiterationsArray = new int[biggestNumber + 1];
+
+        for (int i = 0; i < array.length; i++)
+            specificNumberReiterationsArray[array[i]]++;
+
+        return specificNumberReiterationsArray;
     }
 
 
     //</editor-fold>
+
+    private int findBiggestNumeber(int [] arrayOfNumbers) {
+
+        int theBiggest = arrayOfNumbers[0];
+
+        for (int i = 1; i < arrayOfNumbers.length ; i++) {
+            if (theBiggest < arrayOfNumbers[i])
+                theBiggest = arrayOfNumbers[i];
+        }
+
+        return theBiggest;
+    }
+
+
 }

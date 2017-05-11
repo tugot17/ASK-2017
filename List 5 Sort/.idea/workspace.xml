@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f06ccdb-7459-4e5b-a1cf-ff00361af3a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Main.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/CountingSort/CountingSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/CountingSort/CountingSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/MergeSort/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/List 5 Sorts/Sorts/AdvancedSorts/MergeSort/MergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/SortsCompare.java" afterPath="$PROJECT_DIR$/src/Helpers/SortsCompare.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" afterPath="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" afterPath="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,16 +23,14 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="26" column="79" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShakerSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShakerSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -88,11 +77,13 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="docComment;class#QuickSort#0" expanded="false" />
+                <element signature="n#!!doc;n#sort#0;n#QuickSort#0" expanded="false" />
                 <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
+                <element signature="method#sort#1;class#QuickSort#0" expanded="false" />
                 <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
                 <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
                 <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
@@ -118,16 +109,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortsCompare.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortsCompare.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#SortsCompare#0" expanded="false" />
                 <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
-                <element signature="method#compareSortOfAlmostSorted#0;class#SortsCompare#0" expanded="false" />
-                <element signature="method#compareSortOfSorted#0;class#SortsCompare#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -243,15 +232,15 @@
         <option value="$PROJECT_DIR$/src/Helpers/IntegersGenerator.java" />
         <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/ShellSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/ComparatorSort/BubbleSortUsingComparator.java" />
-        <option value="$PROJECT_DIR$/src/Helpers/SortsCompare.java" />
         <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/CountingSort/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/BubbleSort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/InsertSort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/SelectSort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/Sorts/SimpleSorts/ShakerSort/ShakerSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Helpers/SortsCompare.java" />
       </list>
     </option>
   </component>
@@ -341,132 +330,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleSorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShakerSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleSorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SelectSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleSorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InsertSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleSorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BubbleSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 5 Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedSorts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1124,7 +987,7 @@
       <workItem from="1494221955053" duration="4523000" />
       <workItem from="1494233101193" duration="1433000" />
       <workItem from="1494234834415" duration="3957000" />
-      <workItem from="1494489026136" duration="9093000" />
+      <workItem from="1494489026136" duration="10779000" />
     </task>
     <task id="LOCAL-00001" summary="Bubble sort improved, added class Sort (individual Sorts extends from it)">
       <created>1492627127168</created>
@@ -1204,11 +1067,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108751000" />
+    <option name="totallyTimeSpent" value="110437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1217,15 +1080,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35200846" sideWeight="0.56354165" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.320296" sideWeight="0.56354165" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35200846" sideWeight="0.43645832" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.320296" sideWeight="0.43645832" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20190275" sideWeight="0.7338542" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1717,19 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#SortsCompare#0" expanded="false" />
-            <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSortOfAlmostSorted#0;class#SortsCompare#0" expanded="false" />
-            <element signature="method#compareSortOfSorted#0;class#SortsCompare#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/MergeSort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1741,30 +1591,6 @@
             <element signature="n#!!doc;n#mergesort#0;n#MergeSort#0" expanded="false" />
             <element signature="method#mergesort#0;class#MergeSort#0" expanded="false" />
             <element signature="method#merge#0;class#MergeSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="docComment;class#QuickSort#0" expanded="false" />
-            <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
-            <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
-            <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
-            <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1829,6 +1655,41 @@
             <element signature="n#!!doc;n#sort#0;n#ShakerSort#0" expanded="false" />
             <element signature="method#sort#0;class#ShakerSort#0" expanded="false" />
             <element signature="method#sort#1;class#ShakerSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts/AdvancedSorts/QuickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#QuickSort#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#QuickSort#0" expanded="false" />
+            <element signature="method#sort#0;class#QuickSort#0" expanded="false" />
+            <element signature="method#sort#1;class#QuickSort#0" expanded="false" />
+            <element signature="n#!!doc;n#quicksort#0;n#QuickSort#0" expanded="false" />
+            <element signature="method#quicksort#0;class#QuickSort#0" expanded="false" />
+            <element signature="method#exchange#0;class#QuickSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="79" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/SortsCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#SortsCompare#0" expanded="false" />
+            <element signature="n#!!doc;n#amountOfElements#0;n#SortsCompare#0" expanded="false" />
           </folding>
         </state>
       </provider>

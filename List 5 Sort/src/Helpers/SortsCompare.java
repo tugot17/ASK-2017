@@ -13,50 +13,65 @@ public class SortsCompare {
 
     //<editor-fold desc="Public Methods">
     public static void compareSorts(ISort... sorts) {
-        for (int i = 0; i < sorts.length; i++) {
-            compareSortOfSorted(sorts[i]);
-        }
+
+        compareSortOfSorted(sorts);
 
         System.out.println();
 
-        for (int i = 0; i < sorts.length; i++) {
-            compareSortOfAlmostSorted(sorts[i]);
-        }
+        compareSortOfAlmostSorted(sorts);
 
         System.out.println();
 
-        for (int i = 0; i < sorts.length; i++) {
-            compareSortOfNotSorted(sorts[i]);
-        }
+        compareSortOfNotSorted(sorts);
     }
     //</editor-fold>
 
     //<editor-fold desc="Private Methods">
-    private static void compareSortOfNotSorted(ISort s1) {
-        int [] notSortedArray1;
+    private static void compareSortOfNotSorted(ISort... sorts) {
 
-        System.out.println("Not Sorted Arrays");
-        notSortedArray1 = IntegersGenerator.createRandomArrayGenerator(amountOfElements);
+        System.out.println("Not Sorted Array\n");
 
-        s1.sort(notSortedArray1);
+        for (int i = 0; i < sorts.length; i++) {
+            int [] notSortedArray1;
+
+            notSortedArray1 = IntegersGenerator.createRandomArrayGenerator(amountOfElements);
+
+            sorts[i].sort(notSortedArray1);
+        }
+
+
     }
 
-    private static void compareSortOfAlmostSorted (ISort s1) {
-        int [] almostSortedArray1;
+    private static void compareSortOfAlmostSorted (ISort... sorts) {
 
-        System.out.println("Almost Sorted Arrays");
-        almostSortedArray1 = IntegersGenerator.createAlmostSortedArray(amountOfElements);
 
-        s1.sort(almostSortedArray1);
+        System.out.println("Almost Sorted Array\n");
+
+        for (int i = 0; i < sorts.length; i++) {
+
+            int [] almostSortedArray1;
+
+            almostSortedArray1 = IntegersGenerator.createAlmostSortedArray(amountOfElements);
+
+            sorts[i].sort(almostSortedArray1);
+        }
+
     }
 
-    private static void compareSortOfSorted(ISort s1) {
-        int [] sortedArray1;
+    private static void compareSortOfSorted(ISort... sorts) {
 
-        System.out.println("Sorted Array");
-        sortedArray1 = IntegersGenerator.createAscendingSortedArray(amountOfElements);
 
-        s1.sort(sortedArray1);
+        System.out.println("Sorted Array\n");
+
+        for (int i = 0; i < sorts.length; i++) {
+
+            int [] sortedArray1;
+
+            sortedArray1 = IntegersGenerator.createAscendingSortedArray(amountOfElements);
+
+            sorts[i].sort(sortedArray1);
+        }
+
     }
     //</editor-fold>
 

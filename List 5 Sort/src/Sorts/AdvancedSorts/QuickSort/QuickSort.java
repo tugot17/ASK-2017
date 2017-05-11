@@ -25,7 +25,9 @@ public class QuickSort extends Sort implements ISort {
             return;
         }
         this.array = values;
+
         amountOfSortedElements = values.length;
+
         quicksort(0, amountOfSortedElements - 1);
 
         SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
@@ -58,10 +60,14 @@ public class QuickSort extends Sort implements ISort {
                 amountOfComparasions++;
             }
         }
-        if (low < j)
+        if (low < j) {
             quicksort(low, j);
-        if (i < high)
+        }
+
+        if (i < high) {
             quicksort(i, high);
+        }
+
     }
 
     private void exchange(int i, int j) {

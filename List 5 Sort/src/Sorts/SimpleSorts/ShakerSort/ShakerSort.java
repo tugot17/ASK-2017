@@ -41,7 +41,7 @@ public class ShakerSort extends Sort implements ISort{
                     swapped = true;
                 }
 
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
 
             end--;
@@ -57,7 +57,7 @@ public class ShakerSort extends Sort implements ISort{
                     array[i + 1] = helper;
                     swapped = true;
                 }
-                amountOfComparasions++;
+                amountOfComparasion++;
 
             }
             if (!swapped) {
@@ -70,9 +70,9 @@ public class ShakerSort extends Sort implements ISort{
 
         stopper.stop();
 
-        SortMessage.showSortInformations("Shaker", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Shaker", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
     //</editor-fold>
 

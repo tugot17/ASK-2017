@@ -34,7 +34,7 @@ public class SelectSort extends Sort implements ISort {
                 if (array[j] > array[theBiggest]) {
                     theBiggest = j;
                 }
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
 
             if (theBiggest != i) {
@@ -46,9 +46,9 @@ public class SelectSort extends Sort implements ISort {
         }
         stopper.stop();
 
-        SortMessage.showSortInformations("Select", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Select", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
 
     }
     //</editor-fold>

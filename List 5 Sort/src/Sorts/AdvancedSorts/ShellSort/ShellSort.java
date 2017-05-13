@@ -27,6 +27,7 @@ public class ShellSort extends Sort implements ISort {
                 int j;
                 for (j = i; j >= gap && array[j - gap] > helper; j -= gap) {
                     array[j] = array[j - gap];
+                    amountOfComparasion++;
                 }
                 array[j] = helper;
             }

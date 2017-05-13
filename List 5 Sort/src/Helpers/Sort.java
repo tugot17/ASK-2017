@@ -9,19 +9,19 @@ public class Sort {
     protected int amountOfSortedElements;
     protected int[] array;
     protected Stopper stopper;
-    protected double amountOfComparasions;
+    protected double amountOfComparasion;
     //</editor-fold>
 
     //<editor-fold desc="Constructors">
     public Sort() {
         stopper = new Stopper("sort stopper");
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
     //</editor-fold>
 
     //<editor-fold desc="Public Methods">
-    public double getAmountOfComparasions() {
-        return amountOfComparasions;
+    public double getAmountOfComparasion() {
+        return amountOfComparasion;
     }
 
     public double getLastSortTime() {

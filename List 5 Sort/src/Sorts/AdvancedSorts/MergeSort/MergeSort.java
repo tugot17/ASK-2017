@@ -32,9 +32,9 @@ public class MergeSort extends Sort implements ISort {
         mergesort(0, number - 1);
         stopper.stop();
 
-        SortMessage.showSortInformations("Merge", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Merge", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
 
     //</editor-fold>
@@ -71,7 +71,7 @@ public class MergeSort extends Sort implements ISort {
                 j++;
             }
             k++;
-            amountOfComparasions++;
+            amountOfComparasion++;
         }
 
         while (i <= middle) {

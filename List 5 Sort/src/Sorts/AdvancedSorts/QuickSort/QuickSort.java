@@ -30,9 +30,9 @@ public class QuickSort extends Sort implements ISort {
 
         quicksort(0, amountOfSortedElements - 1);
 
-        SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Quick", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
     //</editor-fold>
 
@@ -45,19 +45,19 @@ public class QuickSort extends Sort implements ISort {
 
             while (array[i] < pivot) {
                 i++;
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
 
             while (array[j] > pivot) {
                 j--;
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
 
             if (i <= j) {
                 exchange(i, j);
                 i++;
                 j--;
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
         }
         if (low < j) {

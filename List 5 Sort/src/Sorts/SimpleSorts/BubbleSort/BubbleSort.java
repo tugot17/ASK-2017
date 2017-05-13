@@ -39,15 +39,15 @@ public class BubbleSort extends Sort implements ISort {
                     array[j]=array[j+1];
                     array[j+1]=helper;
                 }
-                amountOfComparasions++;
+                amountOfComparasion++;
 
             }
         }
         stopper.stop();
 
-        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Bubble", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
 
     }
 

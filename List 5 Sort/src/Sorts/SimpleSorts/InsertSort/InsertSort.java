@@ -35,16 +35,16 @@ public class InsertSort extends Sort implements ISort {
             for (i = j - 1; (i >= 0 && (array[i] > key)); i--)
             {
                 array[ i+1 ] = array[ i ];
-                amountOfComparasions++;
+                amountOfComparasion++;
             }
             array[ i+1 ] = key;
         }
         stopper.stop();
 
 
-        SortMessage.showSortInformations("Insert", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Insert", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
     //</editor-fold>
 

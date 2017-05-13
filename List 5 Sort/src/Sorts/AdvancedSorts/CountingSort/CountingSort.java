@@ -33,9 +33,9 @@ public class CountingSort extends Sort implements ISort {
         for (int i = 0; i < array.length; i++)
             array[i] = resultArray[i];
 
-        SortMessage.showSortInformations("Quick", array.length, amountOfComparasions, stopper.getResult());
+        SortMessage.showSortInformations("Quick", array.length, amountOfComparasion, stopper.getResult());
 
-        amountOfComparasions = 0;
+        amountOfComparasion = 0;
     }
     //</editor-fold>
 
@@ -52,7 +52,7 @@ public class CountingSort extends Sort implements ISort {
                 number++;
                 specificNumberReiterationsArray[i]--;
             }
-            amountOfComparasions++;
+            amountOfComparasion++;
 
         }
 
@@ -67,7 +67,7 @@ public class CountingSort extends Sort implements ISort {
         for (int i = 0; i < array.length; i++) {
             specificNumberReiterationsArray[array[i]]++;
 
-            amountOfComparasions++;
+            amountOfComparasion++;
         }
 
 

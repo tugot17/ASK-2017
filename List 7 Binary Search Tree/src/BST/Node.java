@@ -3,10 +3,10 @@ package BST;
 /**
  * Created by pmazurek on 13.05.2017.
  */
-public class Node <T>{
+public class Node <T extends Comparable<T> > implements Comparable<T>{
 
     //<editor-fold desc="Elements">
-    T value;
+     T value;
 
     Node left;
     Node right;
@@ -30,6 +30,11 @@ public class Node <T>{
     @Override
     public String toString() {
         return value.toString();
+    }
+
+    @Override
+    public int compareTo(T o) {
+        return value.compareTo(o);
     }
     //</editor-fold>
 

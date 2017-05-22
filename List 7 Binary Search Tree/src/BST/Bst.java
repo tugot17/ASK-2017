@@ -10,7 +10,7 @@ import java.util.Comparator;
 /**
  * Created by pmazurek on 13.05.2017.
  */
-public class Bst <T extends Comparable<T> > implements IBst<T>, ITree<T> {
+public class Bst <T extends Comparable<T> > implements IBst<T>{
 
     //<editor-fold desc="Elements">
     Node <T>  root;
@@ -33,12 +33,26 @@ public class Bst <T extends Comparable<T> > implements IBst<T>, ITree<T> {
     //<editor-fold desc="To String">
     @Override
     public String toStringInOrder() {
-        return null;
+        return toStringInOrder(getRoot());
     }
 
     @Override
     public String toStringPreOrder() {
-        return null;
+        return toStringPreOrder(root);
+    }
+
+    private String toStringPreOrder(Node<T> node) {
+        String result = "";
+
+        result += node + " ";
+
+        if (node.left != null)
+            result += toStringPreOrder(node.left);
+
+        if (node.right != null)
+            result += toStringPreOrder(node.right);
+
+        return result;
     }
 
     @Override
@@ -46,6 +60,7 @@ public class Bst <T extends Comparable<T> > implements IBst<T>, ITree<T> {
         return null;
     }
     //</editor-fold>
+
     @Override
     public void insert(T value) {
         root = insert(value, root);
@@ -162,7 +177,24 @@ public class Bst <T extends Comparable<T> > implements IBst<T>, ITree<T> {
         else
             return node;
     }
+
+    private String toStringInOrder(Node<T> node) {
+
+        String result = "";
+
+        if (node.left != null)
+            result += toStringInOrder(node.left);
+
+        result += node.value.toString() + " ";
+
+        if (node.right != null)
+            result += toStringInOrder(node.right);
+
+        return result;
+    }
+
     //</editor-fold>
+
 
 
 

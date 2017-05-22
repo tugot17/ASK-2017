@@ -30,11 +30,16 @@ public class BstTest {
 
     @Test
     public void toStringInOrder() throws Exception {
-
+        Assert.assertEquals("1 2 3 4 12 22 32 221 ", bst.toStringInOrder());
     }
 
     @Test
     public void toStringPreOrder() throws Exception {
+        Assert.assertEquals("22 12 2 1 3 4 221 32 ", bst.toStringPreOrder());
+    }
+
+    @Test
+    public void toStringPostOrder() throws Exception {
 
     }
 
@@ -46,11 +51,6 @@ public class BstTest {
     @Test
     public void search2() throws Exception {
         Assert.assertEquals(221,(long) bst.search(221).value);
-    }
-
-    @Test
-    public void toStringPostOrder() throws Exception {
-
     }
 
     @Test

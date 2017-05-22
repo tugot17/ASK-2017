@@ -1,33 +1,31 @@
 package BST;
 
 import Exceptions.DuplicateItemException;
+import Exceptions.NoSuchElementException;
+import Interfaces.Bst.IBst;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by pmazurek on 13.05.2017.
  */
 public class BstTest {
 
-    IBst <Integer> bst;
+    Bst<Integer> bst;
 
     @Before
     public void setUp() throws Exception {
         bst = new Bst<>();
 
-        bst.insertElement(22);
-        bst.insertElement(12);
-        bst.insertElement(2);
-        bst.insertElement(221);
-        bst.insertElement(32);
-        bst.insertElement(1);
-        bst.insertElement(3);
-        bst.insertElement(4);
-
-
+        bst.insert(22);
+        bst.insert(12);
+        bst.insert(2);
+        bst.insert(221);
+        bst.insert(32);
+        bst.insert(1);
+        bst.insert(3);
+        bst.insert(4);
     }
 
     @Test
@@ -41,34 +39,46 @@ public class BstTest {
     }
 
     @Test
+    public void search() throws Exception {
+        Assert.assertEquals(22,(long) bst.search(22).value);
+    }
+
+    @Test
+    public void search2() throws Exception {
+        Assert.assertEquals(221,(long) bst.search(221).value);
+    }
+
+    @Test
     public void toStringPostOrder() throws Exception {
 
     }
 
     @Test
-    public void findBiggestElement() throws Exception {
-        Assert.assertEquals(java.util.Optional.of(221), bst.findBiggestElement().value);
+    public void maximum() throws Exception {
+        Assert.assertEquals(221, (long)bst.maximum().value);
 
     }
 
     @Test
-    public void findSmallestElement() throws Exception {
-        Assert.assertEquals(java.util.Optional.of(1), bst.findBiggestElement().value);
+    public void minimum() throws Exception {
+        Assert.assertEquals(1, (long)bst.minimum().value);
     }
 
     @Test
     public void getBstHeight() throws Exception {
-        Assert.assertEquals(9, bst.getBstHeight(bst.getRoot()));
+        Assert.assertEquals(4, bst.getBstHeight(bst.getRoot()));
     }
 
-
-    @Test
-    public void insertElement() throws Exception {
-        Assert.assertEquals(java.util.Optional.of(22), bst.getRoot().value);
-    }
 
     @Test (expected = DuplicateItemException.class)
     public void duplicateException() throws Exception {
-        bst.insertElement(22);
+        bst.insert(22);
     }
+
+    @Test (expected = NoSuchElementException.class)
+    public void noSuchElementException() throws Exception {
+        bst.search(-19);
+    }
+
+
 }

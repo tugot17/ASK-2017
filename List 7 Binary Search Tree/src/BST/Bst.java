@@ -1,13 +1,16 @@
 package BST;
 
 import Exceptions.DuplicateItemException;
+import Exceptions.NoSuchElementException;
+import Interfaces.Bst.IBst;
+import Interfaces.ITree;
 
 import java.util.Comparator;
 
 /**
  * Created by pmazurek on 13.05.2017.
  */
-public class Bst <T extends Comparable<T> > implements IBst <T>{
+public class Bst <T extends Comparable<T> > implements IBst<T>, ITree<T> {
 
     //<editor-fold desc="Elements">
     Node <T>  root;
@@ -15,14 +18,15 @@ public class Bst <T extends Comparable<T> > implements IBst <T>{
     Comparator <T> comparator = new GenericComparator<>();
     //</editor-fold>
 
+    //<editor-fold desc="Constructors">
     public Bst(Node<T> root) {
         this.root = root;
     }
 
     public Bst() {
-
+        this.root = null;
     }
-
+    //</editor-fold>
 
     //<editor-fold desc="Public Methods">
 
@@ -42,40 +46,73 @@ public class Bst <T extends Comparable<T> > implements IBst <T>{
         return null;
     }
     //</editor-fold>
-
-    //<editor-fold desc="Find Elements">
     @Override
-    public Node<T> findBiggestElement() {
-        return null;
-    }
-
-    @Override
-    public Node<T> findSmallestElement() {
-        return null;
-    }
-    //</editor-fold>
-
-    @Override
-    public void insertElement(T value) {
+    public void insert(T value) {
         root = insert(value, root);
     }
 
     @Override
-    public T removeElement() {
+    public Node<T> delete(T element) {
         return null;
-    }
-
-    @Override
-    public int getBstHeight(Node<Integer> value) {
-        return 0;
     }
 
     @Override
     public Node<T> getRoot() {
         return root;
     }
+
+    //<editor-fold desc="Find Elements">
+    @Override
+    public Node<T> minimum() {
+        return minimum(getRoot());
+    }
+
+    @Override
+    public Node<T> maximum() {
+
+        return maximum(getRoot());
+    }
+
+
+
+    @Override
+    public Node<T> search(T element) {
+        return search(element, getRoot());
+    }
+
+    @Override
+    public Node<T> successor() {
+        return null;
+    }
+
+    @Override
+    public Node<T> predecessor() {
+        return null;
+    }
+
     //</editor-fold>
 
+
+    @Override
+    public int getBstHeight(Node<Integer> node) {
+
+        if (node == null) {
+            return -1;
+        }
+
+        int leftH = getBstHeight(node.left);
+        int rightH = getBstHeight(node.right);
+
+        if (leftH > rightH) {
+            return leftH + 1;
+        }
+        else {
+            return rightH + 1;
+        }
+    }
+    //</editor-fold>
+
+    //<editor-fold desc="Private Methods">
     private Node insert(T x, Node <T> t) {
         if (t== null) t = new Node(x);
         else {
@@ -92,6 +129,41 @@ public class Bst <T extends Comparable<T> > implements IBst <T>{
         }
         return t;
     }
+
+    private Node<T> search(T x, Node<T>  node) {
+
+        if (node == null)
+            throw new NoSuchElementException(x.toString());
+
+        if (node.value.compareTo(x) == 0)
+            return node;
+
+        if (node.value.compareTo(x) > 0)
+            return search(x, node.left);
+
+        else
+            return search(x, node.right);
+
+    }
+
+    private Node<T> maximum(Node<T> node) {
+
+        if (node.right != null)
+            return maximum(node.right);
+        else
+            return node;
+    }
+
+    private Node<T> minimum(Node<T> node) {
+
+        if (node.left != null)
+            return minimum(node.left);
+
+        else
+            return node;
+    }
+    //</editor-fold>
+
 
 
 }

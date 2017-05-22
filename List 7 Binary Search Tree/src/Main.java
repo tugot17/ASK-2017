@@ -1,5 +1,5 @@
 import BST.Bst;
-import BST.IBst;
+import Interfaces.Bst.IBst;
 import BST.Node;
 
 public class Main {
@@ -9,11 +9,11 @@ public class Main {
 
         Node root = new Node(14);
 
-        IBst <Integer> bst = new Bst<>();
+        Bst <Integer> bst = new Bst<>();
 
-        bst.insertElement(22);
-        bst.insertElement(12);
-        bst.insertElement(2);
+        bst.insert(22);
+        bst.insert(12);
+        bst.insert(2);
 
         int malap = 22;
 

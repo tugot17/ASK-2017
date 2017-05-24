@@ -10,7 +10,7 @@ public interface ITree <T extends Comparable<T>> {
 
     void insert(T element);
 
-    Node<T> delete(T element);
+    void delete(T element);
 
     Node <T> minimum();
 

@@ -14,6 +14,8 @@ public interface IBst <T extends Comparable<T>> extends ITree<T>{
 
      String toStringPostOrder();
 
-     int getBstHeight(Node<Integer> value);
+     int getBstHeight(Node<T> value);
+
+     void show();
 
 }

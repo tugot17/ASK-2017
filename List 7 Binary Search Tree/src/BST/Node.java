@@ -6,7 +6,7 @@ package BST;
 public class Node <T extends Comparable<T> > implements Comparable<T>{
 
     //<editor-fold desc="Elements">
-     T value;
+    T value;
 
     Node left;
     Node right;

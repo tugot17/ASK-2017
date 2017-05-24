@@ -40,7 +40,7 @@ public class BstTest {
 
     @Test
     public void toStringPostOrder() throws Exception {
-
+        Assert.assertEquals("1 4 3 2 12 32 221 22 ", bst.toStringPostOrder());
     }
 
     @Test
@@ -67,6 +67,12 @@ public class BstTest {
     @Test
     public void getBstHeight() throws Exception {
         Assert.assertEquals(4, bst.getBstHeight(bst.getRoot()));
+    }
+
+    @Test
+    public void delete() throws Exception {
+        bst.delete(22);
+        Assert.assertEquals(32, (long)bst.getRoot().value);
     }
 
 

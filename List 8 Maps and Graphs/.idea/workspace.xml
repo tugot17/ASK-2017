@@ -13,28 +13,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DirectAddressingDictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dictionaries/DirectAddressingDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#604#605#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
                 <element signature="e#703#704#0" expanded="true" />
                 <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,31 +31,105 @@
       <file leaf-file-name="DirectAddressingDictionaryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/DirectAddressingDictionaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+            <state relative-caret-position="549">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashAddressingDictionary.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Dictionaries/HashAddressingDictionary.java">
+      <file leaf-file-name="ListHashAddressingDictionary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Dictionaries/ListHashAddressingDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="986">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="61" selection-end-column="5" />
               <folding>
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDictionary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interfaces/Dictionaries/IDictionary.java">
+      <file leaf-file-name="NoSuchElementException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exceptions/NoSuchElementException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListHashAddressingDictionaryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/ListHashAddressingDictionaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenAddressingDictionary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Dictionaries/OpenAddressingDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#OpenAddressingDictionary#0;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#insert#0;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#delete#0;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#search#0;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#indexOf#0;class#OpenAddressingDictionary#0" expanded="false" />
+                <element signature="method#findFirstFreePosition#0;class#OpenAddressingDictionary#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenAddressingDictionaryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/OpenAddressingDictionaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="872">
+              <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoFreeSpaceException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exceptions/NoFreeSpaceException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -97,10 +159,18 @@
         <option value="$PROJECT_DIR$/src/Interfaces/Dictionaries/IHashDictionary.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Dictionaries/IDictionary.java" />
         <option value="$PROJECT_DIR$/Tests/Dictionaries/DirectAddressingDictonaryTest.java" />
-        <option value="$PROJECT_DIR$/src/Dictionaries/DirectAddressingDictionary.java" />
         <option value="$PROJECT_DIR$/src/Dictionaries/DirectAdressAddressingDictionary.java" />
         <option value="$PROJECT_DIR$/Tests/Dictionaries/DirectAdressAddressingDictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/Dictionaries/DirectAddressingDictionary.java" />
         <option value="$PROJECT_DIR$/src/Dictionaries/HashAddressingDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Dictionaries/ListHashAddressingDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/NoFreeSpaceException.java" />
+        <option value="$PROJECT_DIR$/Tests/Dictionaries/OpenAdressingDictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/NoSuchElementException.java" />
+        <option value="$PROJECT_DIR$/Tests/Dictionaries/ListHashAddressingDictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/Dictionaries/OpenAdressingDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Dictionaries/OpenAddressingDictionary.java" />
+        <option value="$PROJECT_DIR$/Tests/Dictionaries/OpenAddressingDictionaryTest.java" />
       </list>
     </option>
   </component>
@@ -170,64 +240,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dictionaries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List 8 Maps and Graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dictionaries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -265,25 +277,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectAddressingDictionaryTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="List 8 Maps and Graphs" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DirectAddressingDictionaryTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OpenAddressingDictionaryTest.search3">
+    <configuration default="false" name="ListHashAddressingDictionaryTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Dictionaries.*" />
@@ -294,7 +289,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Dictionaries" />
-      <option name="MAIN_CLASS_NAME" value="Dictionaries.DirectAddressingDictionaryTest" />
+      <option name="MAIN_CLASS_NAME" value="Dictionaries.ListHashAddressingDictionaryTest" />
       <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -309,7 +304,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DirectAddressingDictionaryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OpenAddressingDictionaryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Dictionaries.*" />
@@ -320,7 +315,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Dictionaries" />
-      <option name="MAIN_CLASS_NAME" value="Dictionaries.DirectAddressingDictionaryTest" />
+      <option name="MAIN_CLASS_NAME" value="Dictionaries.OpenAddressingDictionaryTest" />
       <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -335,7 +330,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DirectAddressingDictionaryTest.indexArrayOutOfBoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OpenAddressingDictionaryTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Dictionaries.*" />
@@ -346,8 +341,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Dictionaries" />
-      <option name="MAIN_CLASS_NAME" value="Dictionaries.DirectAddressingDictionaryTest" />
-      <option name="METHOD_NAME" value="indexArrayOutOfBoundException" />
+      <option name="MAIN_CLASS_NAME" value="Dictionaries.OpenAddressingDictionaryTest" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -361,7 +356,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DirectAddressingDictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ListHashAddressingDictionaryTest.delete2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Dictionaries.*" />
@@ -372,9 +367,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Dictionaries" />
-      <option name="MAIN_CLASS_NAME" value="Dictionaries.DirectAddressingDictionaryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Dictionaries.ListHashAddressingDictionaryTest" />
+      <option name="METHOD_NAME" value="delete2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OpenAddressingDictionaryTest.search3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Dictionaries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="List 8 Maps and Graphs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Dictionaries" />
+      <option name="MAIN_CLASS_NAME" value="Dictionaries.OpenAddressingDictionaryTest" />
+      <option name="METHOD_NAME" value="search3" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -569,18 +590,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.insert" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.delete" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.indexArrayOutOfBoundException" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ListHashAddressingDictionaryTest.insert" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.delete" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.search" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListHashAddressingDictionaryTest.delete2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.search3" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.indexArrayOutOfBoundException" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.delete" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DirectAddressingDictionaryTest.insert" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.search3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.delete" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ListHashAddressingDictionaryTest.delete2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OpenAddressingDictionaryTest.search" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ListHashAddressingDictionaryTest.insert" />
       </list>
     </recent_temporary>
   </component>
@@ -598,20 +620,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectAddressingDictionaryTest - 2017.06.03 at 10h 47m 09s.xml">
-      <configuration name="DirectAddressingDictionaryTest" configurationId="JUnit" />
+    <history-entry file="ListHashAddressingDictionaryTest_delete2 - 2017.06.03 at 19h 03m 05s.xml">
+      <configuration name="ListHashAddressingDictionaryTest.delete2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectAddressingDictionaryTest - 2017.06.03 at 10h 50m 40s.xml">
-      <configuration name="DirectAddressingDictionaryTest" configurationId="JUnit" />
+    <history-entry file="OpenAddressingDictionaryTest_search3 - 2017.06.03 at 19h 15m 14s.xml">
+      <configuration name="OpenAddressingDictionaryTest.search3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectAdressAddressingDictionaryTest_delete - 2017.06.03 at 10h 42m 42s.xml">
-      <configuration name="DirectAdressAddressingDictionaryTest.delete" configurationId="JUnit" />
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 18h 56m 05s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectAdressAddressingDictionaryTest_indexArrayOutOfBoundException - 2017.06.03 at 10h 45m 31s.xml">
-      <configuration name="DirectAdressAddressingDictionaryTest.indexArrayOutOfBoundException" configurationId="JUnit" />
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 18h 56m 59s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectAdressAddressingDictionaryTest_insert - 2017.06.03 at 10h 41m 17s.xml">
-      <configuration name="DirectAdressAddressingDictionaryTest.insert" configurationId="JUnit" />
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 19h 03m 29s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 19h 06m 16s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 19h 09m 33s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 19h 12m 02s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAdressingDictionaryTest_delete - 2017.06.03 at 19h 13m 03s.xml">
+      <configuration name="OpenAdressingDictionaryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAdressingDictionaryTest_search - 2017.06.03 at 18h 56m 23s.xml">
+      <configuration name="OpenAdressingDictionaryTest.search" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -627,7 +664,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -638,7 +675,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
@@ -656,11 +693,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Dictionaries/DirectAddressingDictionary.java</url>
-          <line>36</line>
+          <line>37</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dictionaries/ListHashAddressingDictionary.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dictionaries/OpenAddressingDictionary.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -669,14 +718,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Interfaces/Dictionaries/IDirectAddressingDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -717,36 +758,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10159">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/NoFreeSpaceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/DirectAddressingDictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+        <state relative-caret-position="549">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="47" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/NoSuchElementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dictionaries/DirectAddressingDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#604#605#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dictionaries/HashAddressingDictionary.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/ListHashAddressingDictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="464">
+          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dictionaries/ListHashAddressingDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="61" selection-end-column="5" />
           <folding>
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dictionaries/OpenAddressingDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#OpenAddressingDictionary#0;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#insert#0;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#delete#0;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#search#0;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#indexOf#0;class#OpenAddressingDictionary#0" expanded="false" />
+            <element signature="method#findFirstFreePosition#0;class#OpenAddressingDictionary#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Dictionaries/OpenAddressingDictionaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

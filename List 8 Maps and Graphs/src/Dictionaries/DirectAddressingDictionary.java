@@ -34,6 +34,7 @@ public class DirectAddressingDictionary<T> implements IDictionary <T>{
     }
 
     private int indexOf(T element) {
+
         return element.hashCode();
     }
 }

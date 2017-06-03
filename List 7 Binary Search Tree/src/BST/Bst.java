@@ -2,6 +2,7 @@ package BST;
 
 import Exceptions.CanNotMergeTreesException;
 import Exceptions.DuplicateItemException;
+import Exceptions.NoSuccessorException;
 import Exceptions.NoSuchElementException;
 import Interfaces.Bst.IBst;
 import Interfaces.ITree;
@@ -98,12 +99,15 @@ public class Bst <T extends Comparable<T> > implements IBst<T>{
     }
 
     @Override
-    public Node<T> successor() {
-        return null;
+    public Node<T> successor(T element) {
+
+        Node node = search(element);
+
+        return successor(node);
     }
 
     @Override
-    public Node<T> predecessor() {
+    public Node<T> predecessor(T element) {
         return null;
     }
 
@@ -272,7 +276,7 @@ public class Bst <T extends Comparable<T> > implements IBst<T>{
     }
 
 
-    private Node<T> delete(T element, Node<T> node) {
+    private Node delete(T element, Node<T> node) {
 
         if (node == null)
             throw new NoSuchElementException(element.toString());
@@ -304,7 +308,37 @@ public class Bst <T extends Comparable<T> > implements IBst<T>{
         return t;
     }
 
+    private Node successor(Node<T> node) {
 
+        if (node.right != null)
+            return minimum(node.right);
+
+        else
+            return findSuccessorFromParent(node.value, root);
+    }
+
+    private Node findSuccessorFromParent(T element, Node<T> node) {
+
+        int compareResult = element.compareTo(node.value);
+
+        if (node == null || compareResult == 0)
+            throw new NoSuccessorException(element.toString());
+
+
+        if (compareResult > 0) {
+                return findSuccessorFromParent(element, node.right);
+        }
+
+        else {
+
+            if (node.left.value.compareTo(element) == 0)
+                return node;
+
+            else
+                return findSuccessorFromParent(element, node.left);
+        }
+
+    }
     //</editor-fold>
 
 

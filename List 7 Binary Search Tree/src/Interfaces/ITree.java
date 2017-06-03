@@ -18,9 +18,9 @@ public interface ITree <T extends Comparable<T>> {
 
     Node<T> search(T element);
 
-    Node<T> successor();
+    Node<T> successor(T element);
 
-    Node<T> predecessor();
+    Node<T> predecessor(T element);
 
     Node<T> getRoot();
 

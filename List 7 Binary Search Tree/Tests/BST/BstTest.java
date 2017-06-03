@@ -1,6 +1,7 @@
 package BST;
 
 import Exceptions.DuplicateItemException;
+import Exceptions.NoSuccessorException;
 import Exceptions.NoSuchElementException;
 import Interfaces.Bst.IBst;
 import org.junit.Assert;
@@ -74,6 +75,37 @@ public class BstTest {
         bst.delete(22);
         Assert.assertEquals(32, (long)bst.getRoot().value);
     }
+
+    @Test
+    public void successor() throws Exception {
+        Assert.assertEquals(32, (long)bst.successor(22).value);
+    }
+
+    @Test
+    public void successor2() throws Exception {
+        Assert.assertEquals(22, (long)bst.successor(12).value);
+    }
+
+    @Test
+    public void successor3() throws Exception {
+        Assert.assertEquals(2, (long)bst.successor(1).value);
+    }
+
+    @Test
+    public void successor4() throws Exception {
+        Assert.assertEquals(3, (long)bst.successor(2).value);
+    }
+
+    @Test
+    public void successor5() throws Exception {
+        Assert.assertEquals(12, (long)bst.successor(4).value);
+    }
+
+    @Test (expected = NoSuccessorException.class)
+    public void successor6() throws Exception {
+        bst.successor(221);
+    }
+
 
 
     @Test (expected = DuplicateItemException.class)

@@ -14,47 +14,47 @@ public class ListHashAddressingDictionaryTest {
 
     IDictionary<Integer> dictionary;
 
+    DictionaryTestingHelper helper;
     @Before
     public void setUp() throws Exception {
         dictionary = new ListHashAddressingDictionary<>(100);
 
-        dictionary.insert(222);
-        dictionary.insert(21);
-        dictionary.insert(2);
-        dictionary.insert(19);
+        helper  = new DictionaryTestingHelper(dictionary);
     }
 
     @Test
     public void insert() throws Exception {
-        dictionary.insert(119);
-        dictionary.insert(219);
-
-        Assert.assertEquals(19, (long)dictionary.search(19));
-
+        helper.insert();
     }
 
     @Test
     public void delete() throws Exception {
-        dictionary.delete(19);
-
-        Assert.assertEquals(null, dictionary.search(19));
+        helper.delete();
     }
 
     @Test
     public void delete2() throws Exception {
-        dictionary.delete(1222);
-
-        Assert.assertEquals(null, dictionary.search(1222));
+        helper.delete2();
     }
 
     @Test
     public void search() throws Exception {
-        Assert.assertEquals(21, (long)dictionary.search(21));
 
+        helper.search();
+    }
+
+    @Test
+    public void search2() throws Exception {
+        helper.search2();
+    }
+
+    @Test
+    public void search3() throws Exception {
+        helper.search3();
     }
 
     @Test
     public void nullSearch() throws Exception {
-        Assert.assertEquals(null, dictionary.search(2228));
+        helper.nullSearch();
     }
 }

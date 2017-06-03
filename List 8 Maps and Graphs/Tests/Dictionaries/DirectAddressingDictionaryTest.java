@@ -12,6 +12,9 @@ public class DirectAddressingDictionaryTest {
 
     IDictionary <Integer> dictionary;
 
+    DictionaryTestingHelper helper;
+
+
     @Before
     public void setUp() throws Exception {
         dictionary = new DirectAddressingDictionary<>(100);
@@ -19,26 +22,23 @@ public class DirectAddressingDictionaryTest {
         dictionary.insert(19);
         dictionary.insert(43);
         dictionary.insert(21);
+
+        helper  = new DictionaryTestingHelper(dictionary);
     }
 
     @Test
     public void insert() throws Exception {
-        dictionary.insert(12);
-
-        Assert.assertEquals(12, (long)dictionary.search(12) );
+        helper.insert();
     }
 
     @Test
     public void delete() throws Exception {
-        dictionary.delete(19);
-
-        Assert.assertEquals(null, dictionary.search(19));
+        helper.delete();
     }
 
     @Test
-    public void search() throws Exception {
-
-        Assert.assertEquals(21, (long)dictionary.search(21));
+    public void search2() throws Exception {
+        helper.search2();
     }
 
     @Test (expected = IndexOutOfBoundsException.class)

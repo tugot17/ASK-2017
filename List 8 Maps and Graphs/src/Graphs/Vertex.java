@@ -10,7 +10,7 @@ public class Vertex <T> {
 
     T value;
 
-    List<Vertex> linkedVertices = new LinkedList<>();
+    List<Vertex> linkedVertices = new LinkedList<Vertex>();
 
     public Vertex(T value) {
         this.value = value;

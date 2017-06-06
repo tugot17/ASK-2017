@@ -16,8 +16,8 @@ public class Main {
         graph.insertEdge(3, 10);
         graph.insertEdge(3, 12);
 
-        graph.showAsAdjacencyMatrix();
-
+//        graph.showAsAdjacencyMatrix();
+        graph.showAsAdjacencyList();
 
     }
 }

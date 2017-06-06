@@ -85,6 +85,18 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void showAsAdjacencyList() {
 
+        for (int i = 0; i < vertices.size(); i++) {
+            System.out.print(vertices.get(i).value +  ": ");
+            for (int j = 0; j < vertices.get(i).linkedVertices.size(); j++ ) {
+                Vertex vertex = (Vertex) vertices.get(i).linkedVertices.get(j);
+                System.out.print(vertex.value + ", ");
+            }
+            System.out.print(" /");
+            System.out.println();
+        }
+
+
+
     }
 
     @Override
@@ -95,7 +107,7 @@ public class UndirectedGraph<T> implements IGraph <T>{
     //<editor-fold desc="Private Methods">
     private void putVertexNamesInFirstRowAndColumn(Object[][] matrix) {
 
-//        Vertex [] verticesArray = (Vertex[]) vertices.toArray();
+//        Object [] verticesArray = (Vertex[]) vertices.toArray();
 
         for (int i = 1; i < matrix[0].length; i++) {
 //            matrix[0][i] = verticesArray[i - 1].value;

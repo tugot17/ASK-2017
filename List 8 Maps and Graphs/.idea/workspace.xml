@@ -46,9 +46,10 @@
       <file leaf-file-name="UndirectedGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graphs/UndirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="37" />
+            <state relative-caret-position="311">
+              <caret line="85" column="35" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="35" />
               <folding>
+                <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
                 <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
                 <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
                 <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />
@@ -94,8 +95,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -175,11 +176,12 @@
         <entry file="file://$PROJECT_DIR$/src/Graphs/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#203#211#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -225,9 +227,9 @@
         <option value="$PROJECT_DIR$/src/Graphs/DirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Graphs/IGraph.java" />
         <option value="$PROJECT_DIR$/src/Graphs/Edge.java" />
+        <option value="$PROJECT_DIR$/Tests/Graphs/UndirectedGraphTest.java" />
         <option value="$PROJECT_DIR$/src/Graphs/Vertex.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/Graphs/UndirectedGraphTest.java" />
         <option value="$PROJECT_DIR$/src/Graphs/UndirectedGraph.java" />
       </list>
     </option>
@@ -825,18 +827,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/UndirectedGraph.java</url>
-          <line>99</line>
+          <line>111</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/UndirectedGraph.java</url>
-          <line>104</line>
+          <line>116</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/UndirectedGraph.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -858,8 +866,9 @@
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#203#211#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -991,8 +1000,9 @@
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#203#211#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,6 +1012,7 @@
         <state relative-caret-position="646">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
             <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />
@@ -1076,6 +1087,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
+            <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
             <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />
@@ -1099,6 +1111,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
+            <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
             <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />
@@ -1137,8 +1150,9 @@
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#203#211#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1248,6 +1262,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
+            <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
             <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />
@@ -1390,18 +1405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Graphs/UndirectedGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1410,19 +1413,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#211#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphs/UndirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="37" />
+        <state relative-caret-position="311">
+          <caret line="85" column="35" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="35" />
           <folding>
+            <element signature="docComment;class#UndirectedGraph#0" expanded="false" />
             <element signature="n#!!doc;n#vertices#0;n#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertVertex#0;class#UndirectedGraph#0" expanded="false" />
             <element signature="method#insertEdge#0;class#UndirectedGraph#0" expanded="false" />

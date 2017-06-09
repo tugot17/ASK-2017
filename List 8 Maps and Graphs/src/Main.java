@@ -29,11 +29,15 @@ public class Main {
 
 
         graph.showAsIncidenceMatrix();
+        graph.showAsAdjacencyMatrix();
+        graph.showAsIncidenceMatrix();
 
         System.out.println("\nAfter Kruskal's algorithm\n ");
 
-
         graph.convertToMinimumSpanningTree();
+        graph.showAsIncidenceMatrix();
+
+
 
 
     }

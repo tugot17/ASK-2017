@@ -33,28 +33,24 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void insertEdge(T firstVal, T secVal) {
 
-
-        Vertex end = findVertex(secVal);
-
-        edges.add(new Edge(beginning, end, 1));
-
-        beginning.linkedVertices.add(end);
-
-        end.linkedVertices.add(beginning);
+        insertEdge(firstVal,secVal, 1);
     }
 
     @Override
     public void insertEdge(T firstVal, T secVal, int length) {
 
-        Vertex beginning = findVertex(firstVal);
 
+        Vertex beginning = findVertex(firstVal);
         Vertex end = findVertex(secVal);
 
-        edges.add(new Edge(beginning, end, length));
+        Edge edge = new Edge(beginning, end, length);
+        edges.add(edge);
 
         beginning.linkedVertices.add(end);
-
         end.linkedVertices.add(beginning);
+
+        beginning.linkedEdges.add(edge);
+        end.linkedVertices.add(edge);
     }
 
     @Override
@@ -95,15 +91,20 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void showAsAdjacencyList() {
 
-        for (Vertex vertex1 : vertices) {
-            System.out.print(vertex1.value + ": ");
-            for (int j = 0; j < vertex1.linkedVertices.size(); j++) {
-                Vertex vertex = (Vertex) vertex1.linkedVertices.get(j);
+        for (int i = 0; i < vertices.size(); i++) {
+            System.out.print(vertices.get(i).value +  ": ");
+            for (int j = 0; j < vertices.get(i).linkedVertices.size(); j++ ) {
+                Vertex vertex = (Vertex) vertices.get(i).linkedVertices.get(j);
                 System.out.print(vertex.value + ", ");
             }
             System.out.print(" /");
             System.out.println();
-        }
+            }
+
+
+//        for (Vertex vertex : vertices) {
+//
+//        }
 
     }
 

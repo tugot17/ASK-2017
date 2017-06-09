@@ -10,6 +10,7 @@ public class Vertex <T> {
 
     T value;
 
+    List<Edge> linkedEdges = new LinkedList<>();
     List<Vertex> linkedVertices = new LinkedList<Vertex>();
 
     public Vertex(T value) {

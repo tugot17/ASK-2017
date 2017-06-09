@@ -2,6 +2,7 @@ package Graphs;
 
 import Interfaces.Graphs.IGraph;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -12,16 +13,16 @@ import java.util.NoSuchElementException;
 public class UndirectedGraph<T> implements IGraph <T>{
 
     //<editor-fold desc="Elements">
-    private List <Vertex> vertices = new LinkedList<>();
+    private LinkedList <Vertex> vertices = new LinkedList<>();
 
-    private List <Edge> edges = new LinkedList<>();
+    private LinkedList <Edge> edges = new LinkedList<>();
     //</editor-fold>
 
-    public List<Vertex> getVertices() {
+    public LinkedList<Vertex> getVertices() {
         return vertices;
     }
 
-    public List<Edge> getEdges() {
+    public LinkedList<Edge> getEdges() {
         return edges;
     }
 
@@ -34,15 +35,29 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void insertEdge(T firstVal, T secVal) {
 
-        Vertex begenning = findVertex(firstVal);
+        Vertex beginning = findVertex(firstVal);
 
         Vertex end = findVertex(secVal);
 
-        edges.add(new Edge(begenning, end));
+        edges.add(new Edge(beginning, end, 1));
 
-        begenning.linkedVertices.add(end);
+        beginning.linkedVertices.add(end);
 
-        end.linkedVertices.add(begenning);
+        end.linkedVertices.add(beginning);
+    }
+
+    @Override
+    public void insertEdge(T firstVal, T secVal, int length) {
+
+        Vertex beginning = findVertex(firstVal);
+
+        Vertex end = findVertex(secVal);
+
+        edges.add(new Edge(beginning, end, length));
+
+        beginning.linkedVertices.add(end);
+
+        end.linkedVertices.add(beginning);
     }
 
     @Override
@@ -66,15 +81,13 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void showAsAdjacencyMatrix() {
 
-
-
         int matrixSize = vertices.size() + 1;
 
         Object matrix [][] = new Object[matrixSize][matrixSize];
 
         matrix[0][0] = " ";
         
-        putVertexNamesInFirstRowAndColumn(matrix);
+        putVertexValuesInFirstRowAndColumn(matrix);
 
         fillMatrixWithVertexReferenceData(matrix);
         
@@ -102,21 +115,82 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void showAsIncidenceMatrix() {
 
+        int verticesAmount = vertices.size() + 1;
+
+        int edgesAmount = edges.size() + 1;
+
+
+        Object matrix [][] = new Object [edgesAmount] [verticesAmount];
+
+        matrix[0][0] = " ";
+
+        putVertexValueInFirstRowAndEdgesIndexesInFirstColumn(matrix);
+
+        fillMatrixWithVertexToEdgeReferenceData(matrix);
+
+        showMatrix(matrix);
+
+    }
+
+    @Override
+    public void convertToMinimumSpanningTree() {
+
+
+
+        boolean edgeEssential = false;
+
+        LinkedList<Vertex> vertices1 = new LinkedList<>();
+
+        LinkedList<Edge> essentialEdges = new LinkedList<>();
+
+        edges.sort(Edge::compareTo);
+
+            for (int i =0; i < edges.size(); i++) {
+
+                if ( !vertices1.contains(edges.get(i).beginning) ) {
+                    vertices1.add(edges.get(i).beginning);
+                    edgeEssential = true;
+                }
+
+                if ( !vertices1.contains(edges.get(i).end) ) {
+                    vertices1.add(edges.get(i).end);
+                    edgeEssential = true;
+                }
+
+                if (edgeEssential)
+                    essentialEdges.add(edges.get(i));
+
+                edgeEssential = false;
+            }
+
+
+            edges = essentialEdges;
+
+    }
+
+
+    private boolean allVertexesConnected() {
+
+        boolean allConnected = true;
+
+
+        return false;
+
     }
 
     //<editor-fold desc="Private Methods">
-    private void putVertexNamesInFirstRowAndColumn(Object[][] matrix) {
+    private void putVertexValuesInFirstRowAndColumn(Object[][] matrix) {
 
 //        Object [] verticesArray = (Vertex[]) vertices.toArray();
 
         for (int i = 1; i < matrix[0].length; i++) {
 //            matrix[0][i] = verticesArray[i - 1].value;
-             matrix[0][i] = vertices.get(i - 1);
+             matrix[0][i] = vertices.get(i - 1).value;
         }
 
         for (int i = 1; i < matrix.length; i++) {
 //            matrix[i][0] = verticesArray[i - 1].value;
-            matrix[i][0] = vertices.get(i - 1);
+            matrix[i][0] = vertices.get(i - 1).value;
         }
 
     }
@@ -134,8 +208,8 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
     private void showMatrix(Object[][] matrix) {
 
-        for (int i = 0; i < matrix[0].length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 System.out.print(matrix[i][j] + " ");
 
                 if (matrix[i][j].toString().length() < 2)
@@ -148,9 +222,9 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
     private void fillMatrixWithVertexReferenceData(Object[][] matrix) {
 
-        for (int i = 1; i < matrix[0].length; i ++) {
-            for (int j = 1; j < matrix.length; j++) {
-                if (referenceExist(i, j))
+        for (int i = 1; i < matrix.length; i ++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                if (referenceBetweenVerticesExist(i, j))
                     matrix[i][j] = 1;
                 else
                     matrix[i][j] = 0;
@@ -159,7 +233,7 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
     }
 
-    private boolean referenceExist(int i, int j) {
+    private boolean referenceBetweenVerticesExist(int i, int j) {
 
 
         Vertex firstVertex = vertices.get(i - 1);
@@ -168,6 +242,40 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
         return firstVertex.linkedVertices.contains(secondVertex);
     }
+
+    private void fillMatrixWithVertexToEdgeReferenceData(Object[][] matrix) {
+
+        for (int i = 1; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                if (referenceBetweenVertexAndEdgeExists(i - 1, j - 1))
+                    matrix[i][j] = 1;
+                else
+                    matrix[i] [j] = 0;
+            }
+        }
+
+    }
+
+    private boolean referenceBetweenVertexAndEdgeExists(int edgeId, int vertexId)  {
+
+        Edge edge = edges.get(edgeId);
+
+        Vertex vertex = vertices.get(vertexId);
+
+        return (edge.beginning == vertex || edge.end == vertex);
+    }
+
+    private void putVertexValueInFirstRowAndEdgesIndexesInFirstColumn(Object[][] matrix) {
+
+        for (int i = 1; i < matrix[0].length; i++) {
+            matrix[0][i] = vertices.get(i - 1).value;
+        }
+
+        for (int i = 1; i < matrix.length; i++) {
+            matrix[i][0] = i;
+        }
+    }
+
     //</editor-fold>
 
 }

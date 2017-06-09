@@ -9,6 +9,8 @@ public interface IGraph <T> {
 
     void insertEdge (T firstVal, T secVal);
 
+    void insertEdge(T firstVal, T secVal, int length);
+
     void deleteVertex (T value);
 
     void deleteEdge(T firstVal, T secVal);
@@ -18,4 +20,6 @@ public interface IGraph <T> {
     void showAsAdjacencyList();
 
     void showAsIncidenceMatrix();
+
+    void convertToMinimumSpanningTree();
 }

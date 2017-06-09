@@ -34,8 +34,6 @@ public class Main {
 
 
         graph.convertToMinimumSpanningTree();
-        graph.showAsIncidenceMatrix();
-
 
 
     }

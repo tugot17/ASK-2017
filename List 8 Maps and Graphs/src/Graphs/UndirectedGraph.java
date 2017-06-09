@@ -2,9 +2,7 @@ package Graphs;
 
 import Interfaces.Graphs.IGraph;
 
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
@@ -35,7 +33,6 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void insertEdge(T firstVal, T secVal) {
 
-        Vertex beginning = findVertex(firstVal);
 
         Vertex end = findVertex(secVal);
 
@@ -85,7 +82,7 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
         Object matrix [][] = new Object[matrixSize][matrixSize];
 
-        matrix[0][0] = " ";
+        matrix[0][0] = asManyWhitespacesAsNecessary(matrix.length);
         
         putVertexValuesInFirstRowAndColumn(matrix);
 
@@ -98,17 +95,15 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void showAsAdjacencyList() {
 
-        for (int i = 0; i < vertices.size(); i++) {
-            System.out.print(vertices.get(i).value +  ": ");
-            for (int j = 0; j < vertices.get(i).linkedVertices.size(); j++ ) {
-                Vertex vertex = (Vertex) vertices.get(i).linkedVertices.get(j);
+        for (Vertex vertex1 : vertices) {
+            System.out.print(vertex1.value + ": ");
+            for (int j = 0; j < vertex1.linkedVertices.size(); j++) {
+                Vertex vertex = (Vertex) vertex1.linkedVertices.get(j);
                 System.out.print(vertex.value + ", ");
             }
             System.out.print(" /");
             System.out.println();
         }
-
-
 
     }
 
@@ -122,7 +117,7 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
         Object matrix [][] = new Object [edgesAmount] [verticesAmount];
 
-        matrix[0][0] = " ";
+        matrix[0][0] =asManyWhitespacesAsNecessary(matrix.length);
 
         putVertexValueInFirstRowAndEdgesIndexesInFirstColumn(matrix);
 
@@ -135,61 +130,45 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void convertToMinimumSpanningTree() {
 
-
-
         boolean edgeEssential = false;
 
         LinkedList<Vertex> vertices1 = new LinkedList<>();
-
         LinkedList<Edge> essentialEdges = new LinkedList<>();
 
         edges.sort(Edge::compareTo);
 
-            for (int i =0; i < edges.size(); i++) {
-
-                if ( !vertices1.contains(edges.get(i).beginning) ) {
-                    vertices1.add(edges.get(i).beginning);
-                    edgeEssential = true;
-                }
-
-                if ( !vertices1.contains(edges.get(i).end) ) {
-                    vertices1.add(edges.get(i).end);
-                    edgeEssential = true;
-                }
-
-                if (edgeEssential)
-                    essentialEdges.add(edges.get(i));
-
-                edgeEssential = false;
+        for (Edge e: edges) {
+            if ( !vertices1.contains(e.beginning)) {
+                vertices1.add(e.beginning);
+                edgeEssential = true;
             }
 
+            if ( !vertices1.contains(e.end)) {
+                vertices1.add(e.end);
+                edgeEssential = true;
+            }
+
+            if (edgeEssential)
+                essentialEdges.add(e);
+
+            edgeEssential = false;
+
+        }
 
             edges = essentialEdges;
 
     }
 
 
-    private boolean allVertexesConnected() {
-
-        boolean allConnected = true;
-
-
-        return false;
-
-    }
-
     //<editor-fold desc="Private Methods">
     private void putVertexValuesInFirstRowAndColumn(Object[][] matrix) {
 
-//        Object [] verticesArray = (Vertex[]) vertices.toArray();
 
         for (int i = 1; i < matrix[0].length; i++) {
-//            matrix[0][i] = verticesArray[i - 1].value;
              matrix[0][i] = vertices.get(i - 1).value;
         }
 
         for (int i = 1; i < matrix.length; i++) {
-//            matrix[i][0] = verticesArray[i - 1].value;
             matrix[i][0] = vertices.get(i - 1).value;
         }
 
@@ -197,22 +176,21 @@ public class UndirectedGraph<T> implements IGraph <T>{
 
     private Vertex findVertex(T value) {
 
-        // #todo czemu tu iterator nie działa ogarnąć trzeba bo nie wygląda to fajnie tak jak wygląda teraz
-
-        for (int i = 0; i < vertices.size(); i++) {
-            if (vertices.get(i).value.equals(value))
-                return vertices.get(i);
+        for (Vertex vertex : vertices) {
+            if (vertex.value.equals(value))
+                return vertex;
         }
-        return null;
+
+        throw new NoSuchElementException(value.toString());
     }
 
     private void showMatrix(Object[][] matrix) {
 
-        for (int i = 0; i < matrix.length; i++) {
+        for (Object[] aMatrix : matrix) {
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[i][j] + " ");
+                System.out.print(aMatrix[j] + " ");
 
-                if (matrix[i][j].toString().length() < 2)
+                if (aMatrix[j].toString().length() < 2)
                     System.out.print(" ");
             }
             System.out.println();
@@ -276,6 +254,19 @@ public class UndirectedGraph<T> implements IGraph <T>{
         }
     }
 
+    private String asManyWhitespacesAsNecessary(int length) {
+
+        StringBuilder result = new StringBuilder();
+
+        while (length > 0) {
+            result.append(" ");
+
+            length /= 10;
+
+        }
+
+        return result.toString();
+    }
     //</editor-fold>
 
 }

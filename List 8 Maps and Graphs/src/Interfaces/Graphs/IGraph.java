@@ -22,4 +22,8 @@ public interface IGraph <T> {
     void showAsIncidenceMatrix();
 
     void convertToMinimumSpanningTree();
+
+    void showBreadthFirstSearchResult();
+
+    void showDeepFirstSearchResult();
 }

@@ -2,6 +2,7 @@ import Graphs.Edge;
 import Graphs.UndirectedGraph;
 
 import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class Main {
 
@@ -13,29 +14,38 @@ public class Main {
 
         graph.insertVertex("p");
         graph.insertVertex("r");
-        graph.insertVertex("s");
         graph.insertVertex("q");
-//        graph.insertVertex("t");
-//        graph.insertVertex("u");
-//        graph.insertVertex("v");
-//        graph.insertVertex("w");
-//        graph.insertVertex("x");
+        graph.insertVertex("t");
+        graph.insertVertex("s");
+        graph.insertVertex("u");
+        graph.insertVertex("x");
+        graph.insertVertex("w");
+        graph.insertVertex("v");
 
 
+        graph.insertEdge("p", "r", 2);
         graph.insertEdge("p", "q", 2);
-        graph.insertEdge("p", "s",2);
-        graph.insertEdge("p", "r",6);
-        graph.insertEdge("r", "q", 1);
+        graph.insertEdge("q", "t", 1);
+        graph.insertEdge("p", "s", 1);
+        graph.insertEdge("s", "u", 1);
+        graph.insertEdge("u", "x", 1);
+        graph.insertEdge("u", "w", 1);
+        graph.insertEdge("w", "v", 1);
 
 
-        graph.showAsIncidenceMatrix();
-        graph.showAsAdjacencyMatrix();
-        graph.showAsIncidenceMatrix();
+//        graph.showAsIncidenceMatrix();
+//        graph.showAsAdjacencyMatrix();
+//        graph.showAsAdjacencyList();
+//
+//        System.out.println("\nAfter Kruskal's algorithm\n ");
+//
+//        graph.convertToMinimumSpanningTree();
+//        graph.showAsAdjacencyMatrix();
+//        graph.showAsAdjacencyList();
 
-        System.out.println("\nAfter Kruskal's algorithm\n ");
+        graph.showDeepFirstSearchResult();
 
-        graph.convertToMinimumSpanningTree();
-        graph.showAsIncidenceMatrix();
+
 
 
 

@@ -4,6 +4,8 @@ import Interfaces.Graphs.IGraph;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
+import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by pmazurek on 6/3/2017.
@@ -39,7 +41,6 @@ public class UndirectedGraph<T> implements IGraph <T>{
     @Override
     public void insertEdge(T firstVal, T secVal, int length) {
 
-
         Vertex beginning = findVertex(firstVal);
         Vertex end = findVertex(secVal);
 
@@ -50,7 +51,7 @@ public class UndirectedGraph<T> implements IGraph <T>{
         end.linkedVertices.add(beginning);
 
         beginning.linkedEdges.add(edge);
-        end.linkedVertices.add(edge);
+        end.linkedEdges.add(edge);
     }
 
     @Override
@@ -152,12 +153,76 @@ public class UndirectedGraph<T> implements IGraph <T>{
             if (edgeEssential)
                 essentialEdges.add(e);
 
+            else {
+                e.beginning.linkedVertices.remove(e.end);
+                e.end.linkedVertices.remove(e.beginning);
+            }
+
             edgeEssential = false;
 
         }
 
             edges = essentialEdges;
 
+    }
+
+    @Override
+    public void showBreadthFirstSearchResult() {
+
+        int firstVertexId = vertices.size()/2;
+
+        LinkedList<Vertex> unvisitedVertices = (LinkedList<Vertex>) vertices.clone();
+
+        Queue<Vertex> vertexQueue = new LinkedList<>();
+
+        vertexQueue.add(unvisitedVertices.get(firstVertexId));
+        unvisitedVertices.remove(unvisitedVertices.get(firstVertexId));
+
+
+        while (unvisitedVertices.size() > 0 || !vertexQueue.isEmpty()) {
+
+            Vertex currentVertex  = vertexQueue.poll();
+
+            System.out.print(currentVertex + "  ");
+
+            for (int i = 0; i < currentVertex.linkedVertices.size(); i++) {
+
+                if (unvisitedVertices.contains(currentVertex.linkedVertices.get(i))) {
+                    vertexQueue.add((Vertex) currentVertex.linkedVertices.get(i));
+                    unvisitedVertices.remove(currentVertex.linkedVertices.get(i));
+                }
+            }
+
+        }
+    }
+
+    @Override
+    public void showDeepFirstSearchResult() {
+        int firstVertexId = vertices.size()/2;
+
+        LinkedList<Vertex> unvisitedVertices = (LinkedList<Vertex>) vertices.clone();
+
+        Stack<Vertex> vertexQueue = new Stack<>();
+
+        vertexQueue.push(unvisitedVertices.get(firstVertexId));
+        unvisitedVertices.remove(unvisitedVertices.get(firstVertexId));
+
+
+        while (unvisitedVertices.size() > 0 || !vertexQueue.isEmpty()) {
+
+            Vertex currentVertex  = vertexQueue.pop();
+
+            System.out.print(currentVertex + "  ");
+
+            for (int i = 0; i < currentVertex.linkedVertices.size(); i++) {
+
+                if (unvisitedVertices.contains(currentVertex.linkedVertices.get(i))) {
+                    vertexQueue.push((Vertex) currentVertex.linkedVertices.get(i));
+                    unvisitedVertices.remove(currentVertex.linkedVertices.get(i));
+                }
+            }
+
+        }
     }
 
 
